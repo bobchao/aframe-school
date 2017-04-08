@@ -2,8 +2,8 @@
 <!-- .slide: data-background="media/img/aframe.jpg" -->
 
 <div class="talk-title">
-  <h1>A-Frame School</h1>
-  <h3>An interactive course for WebVR</h3>
+  <h1>A-Frame 學院</h1>
+  <h3>WebVR 的互動式學習教材</h3>
   <p class="talk-info">
     <b><a href="https://aframe.io">aframe.io</a></b>
   </p>
@@ -11,29 +11,28 @@
 
 ------
 
-## Prologue
+## 序章
 
 <!-- .slide: data-background="media/img/aframe.jpg" -->
 
-> Using [Glitch](https://glitch.com), the School will give you step-by-step
-> exercises to help you jump into [WebVR](https://webvr.rocks)! The School has
-> sections going &larr; and &rarr; but also subsections going **&uarr; and
-> &darr;**:
+> 此教材將以 Step-by-step 的方式，透過 [Glitch](https://glitch.com) 練習，
+> 協助您快速進入 [WebVR](https://webvr.rocks) 的世界！  
+> 除了 &larr; 與 &rarr; 之外，這份教材裡也有 **&uarr; 及 &darr;** 的各節內容：
 
 <img class="stretch" data-src="media/img/navigation.jpg">
 
-**Navigate &darr;**
+**繼續往 &darr; 瀏覽**
 
 ---
 
-### Resources During Your Journey
+### 旅途中的各種實用資源
 
-1. [Skim through the docs and FAQ](https://aframe.io/docs/)
-2. [Get help from peeps on Slack](https://aframe.io/community/#slack)
-3. [Ask questions on Stack Overflow](http://stackoverflow.com/questions/ask/?tags=aframe)
-4. If you are in a live workshop event, please raise your hand if you have a question!
+1. [閱讀文件及 FAQ](https://aframe.io/docs/)
+2. [到 Slack 尋求同好協助](https://aframe.io/community/#slack)
+3. [在 Stack Overflow 上發問](http://stackoverflow.com/questions/ask/?tags=aframe)
+4. 如果您正在參與工作坊，有問題就直接舉手吧！
 
-**Navigate &rarr;**
+**繼續往 &rarr; 瀏覽**
 
 
 <!-- Lessons start below. -->
@@ -41,107 +40,96 @@
 
 ------
 
-## Glitch &mdash; Introduction
+## Glitch &mdash; 介紹
 
-> The School uses [Glitch](https://glitch.com) as your learning and development
-> environment for A-Frame.
+> 此教材使用 [Glitch](https://glitch.com) 作為 A-Frame 的教學用開發環境。
 
 <img class="stretch" data-src="media/img/glitch.jpg">
 
-- Glitch lets you code in the browser without having to set
-anything up
-- Glitch lets you **remix** projects to use existing A-Frame projects as a
-  starting point
-- Glitch instantly publishes and hosts your site with a URL (e.g.,
-  `https://aframe.glitch.me`)
-- Glitch updates your A-Frame site live on every code change
-- Glitch lets multiple people code on the same project
+- Glitch 讓你可以在瀏覽器裡直接編寫程式，什麼也不必安裝設定
+- Glitch 讓你可以**重混**別人已經寫好的 A-Frame 專案，不必從零開始
+- Glitch 可以存放你的作品，並即刻透過網址（像是 `https://aframe.glitch.me`）發佈
+- Glitch 可以在你更動 A-Frame 專案網站的程式碼時自動更新
+- Glitch 可以讓很多人共同編輯同一個專案
 
-*If you are interested in setting up a local development environment, skip ahead &darr;*
+*如果你想要自己設定本機開發環境，&darr; 面有相關說明*
 
 ---
 
-## Glitch &mdash; Remixing an Existing Project
+## Glitch &mdash; 重混既有專案
 
-> Glitch lets you remix or fork an existing project and use it as a base for your
-> new project. Before starting, we recommend linking Glitch to a [GitHub
-> account](https://github.com/). After you remix, Glitch will give you a random
-> project and URL name, which you can change.
+> 你可以在 Glitch 上重混或 fork 既有的專案，以別人做好的東西為新專案的起點。
+> 在開始之前，我們推薦你先將 Glitch 與 [GitHub 帳號](https://github.com/)連結。
+> 編寫完畢後，Glitch 會隨機提供一個網址，這個網址可以進一步修改。
 
 <img class="stretch" data-src="media/img/glitch2.jpg">
 
-[Remix the A-Frame Starter Glitch](https://glitch.com/~aframe/)  <!-- .element: class="cta-button glitch" -->
+[在 Glitch 上重混 A-Frame 新手起步專案](https://glitch.com/~aframe/)  <!-- .element: class="cta-button glitch" -->
 
 ---
 
-## Glitch &mdash; Editing Code
+## Glitch &mdash; 編寫程式
 
-> Once you've [remixed the A-Frame Starter Glitch](https://glitch.com/~aframe/),
-> check out where you'll be editing your code. Poke around and see that you can
-> even edit the backend server code, upload assets, create new files, or invite
-> others to edit with you!
+> 在[重混 A-Frame 新手起步專案](https://glitch.com/~aframe/)後，咱們好好看看這個
+> 編寫程式的地方。你還可以修改後端程式、上傳素材、建立新檔，甚至邀請其他人跟你一起寫程式！
 
 <img class="stretch" data-src="media/img/glitch3.jpg">
 
 ---
 
-## Glitch &mdash; Viewing Your Project
+## Glitch &mdash; 檢視專案成果
 
-> After you've poked around the editor, see the project live.
+> 看完編輯畫面後，我們來看看專案的成果畫面。
 
 <img class="stretch" data-src="media/img/glitch4.jpg">
 
 ---
 
-## Glitch &mdash; Exporting Your Project
+## Glitch &mdash; 匯出專案
 
-> At any time, if you want to download your project or export to GitHub, see the
-> *Advanced Options* menu. Downloading will give you a `.tgz` file which you can
-> unzip. For A-Frame projects, you mostly care about what's in the `public/`
-> folder, and ignore all the server-side code.
+> 如果你想要下載整個專案的文件，或將專案匯出到 GitHub，請到專案選單裡的 *Advanced Options*。
+> 點選 *Download Project* 後會給你一個 `.tgz` 檔，可以拿 ZIP 工具解開取得專案檔案。
+> 對於 A-Frame 專案來說，你想要的東西都會在 `public/` 資料夾中，而後端的程式檔案都可以不管。
 
 <img class="stretch" data-src="media/img/glitch5.jpg">
 
-If you download a project, you
-might be interested in setting up a web development environment in the next
-section **&darr;**. Else, head **&rarr;** to start with A-Frame!
+在下載專案後，如果你想要在自己的電腦上設定 Web 開發環境，那就請繼續往 **&darr;** 看；  
+不然，就直接往 **&rarr;** 來開始 A-Frame 之旅吧！
 
 ---
 
-## [Optional] Set Up a Web Development Environment
+## [非必備] 設定本機的 Web 開發環境
 
-> You can set up a full web development environment on your local machine, rather
-> than use Glitch's online web development environment.
+> 你可以在自己的電腦上設定完整的 Web 開發環境，不見得要仰賴 Glitch 的線上系統。
 
 <img class="stretch" data-src="media/img/webdevenv1.jpg">
 
-1. **Get a text editor:** [Atom](https://atom.io) is a good one to start with
-2. **Set up a local server:** Download and run [Mongoose
-Server](https://www.cesanta.com/products/binary) or run `python -m
-SimpleHTTPServer` in a terminal
-3. **Create a file `index.html`** and copy A-Frame code from the Glitch samples
-4. **Run a local server** in the same directory as the HTML file
-5. **Open the local server's URL** in your browser (e.g., `http://localhost:8000`)
-6. **Make changes** to your HTML file and refresh your browser to see the changes
-7. Optional: check out [ngrok](https://ngrok.io) to let any device on any
-network have access to your local server
+1. **挑個文字編輯器：** 拿 [Atom](https://atom.io) 作為入門還不錯
+2. **安裝本機的伺服器：** 您可下載 [Mongoose
+Server](https://www.cesanta.com/products/binary)，或在終端機中輸入 `python -m
+SimpleHTTPServer`
+3. **建立 `index.html` 檔**後複製 Glitch 範例裡的 A-Frame 程式碼過去
+4. 在 HTML 檔的同一個目錄下**執行本機伺服器**
+5. 在瀏覽器中**開啟本機伺服器的 URL**（例如 `http://localhost:8000`）
+6. **修改 HTML 檔**，然後重新讀取網頁來檢視調整結果
+7. 選配：可以考慮使用 [ngrok](https://ngrok.io) 來讓其他網段的任何設備都能存取本機伺服器
 
 ---
 
-## [Optional] Set Up a Web Development Environment &mdash; Get a Text Editor
+## [非必備] 設定本機的 Web 開發環境 &mdash; 挑個文字編輯器
 
-> [Atom](https://atom.io) is a good text editor to start if you don't have one.
-> Other popular options are [Notepad++](https://notepad-plus-plus.org/),
-> [Sublime](https://www.sublimetext.com/), [Brackets](http://brackets.io/), or
-> [vim](http://www.vim.org/download.php).
+> 如果你還沒有慣用的文字編輯器，[Atom](https://atom.io) 滿適合新手的。
+> 其他熱門的選項還包括 [Notepad++](https://notepad-plus-plus.org/)、
+> [Sublime](https://www.sublimetext.com/)、[Brackets](http://brackets.io/)以及
+> [vim](http://www.vim.org/download.php) 等。
 
 <img class="stretch" data-src="media/img/webdevenv2.jpg">
 
 ---
 
-## [Optional] Set Up a Web Development Environment &mdash; Set Up a Local Server
+## [非必備] 設定本機的 Web 開發環境 &mdash; 安裝本機的伺服器
 
-> You'll need a local HTTP server to serve your files to the browser.
+> 你會需要在本機安裝 HTTP 伺服器，以便將檔案送到瀏覽器.
 
 <div class="captioned-image-row small">
   <div>
@@ -160,39 +148,37 @@ network have access to your local server
 
 ---
 
-## [Optional] Set Up a Web Development Environment &mdash; Use ngrok
+## [非必備] 設定本機的 Web 開發環境 &mdash; 使用 ngrok
 
-> Optionally, you can use [ngrok](https://ngrok.com/) to help develop your
-> A-Frame project on a smartphone without having to do the local IP address
-> dance.
+> 你也可以考慮使用 [ngrok](https://ngrok.com/)，在不用瞎搞 IP 位置的情況下方便
+> 於開發給手機使用的 A-Frame 專案。
 
-1. Download and unzip [ngrok](https://ngrok.com/download/) anywhere
-2. Run ngrok, providing it the port number of your local server (`./ngrok http 8080`)
-3. In the output, ngrok will give you a URL with a bunch of letters and numbers (e.g., `https://abcdef123456.ngrok.io`)
-4. Open that URL on another device on any network (such as a smartphone or another computer)
+1. 下載並解壓縮 [ngrok](https://ngrok.com/download/)
+2. 執行 ngrok，提供本機伺服器的通訊埠號（例如 `./ngrok http 8080`）
+3. 執行後，ngrok 會提供一串 URL 給你，例如 `https://abcdef123456.ngrok.io`
+4. 接著就可以在任何網段、任何設備上開啟這個 URL，存取本機伺服器資源了
 
 <img class="stretch" data-src="media/img/webdevenv3.jpg">
 
 ------
 
-## Try Out A-Frame Examples
+## 試試 A-Frame 的範例
 
-> Play with examples on your desktop or smartphone from the [A-Frame
-> Homepage](https://aframe.io), [A-Frame Blog](https://aframe.io/blog/), or
-> [awesome-aframe](https://github.com/aframevr/awesome-aframe). See
-> [webvr.rocks](https://webvr.rocks) for information on setting up WebVR with a
-> headset if you have one.
+> 在桌機或手機上打開 [A-Frame 的首頁](https://aframe.io)、
+> [A-Frame 網誌](https://aframe.io/blog/) 或
+> [awesome-aframe](https://github.com/aframevr/awesome-aframe)。  
+> 如果你有頭戴型顯示器，請參考 [webvr.rocks](https://webvr.rocks) 來設定 WebVR。
 
 <img data-src="media/img/examples.gif">
 
 ------
 
-## Start with *Hello, WebVR*
+## 就從 *Hello, WebVR* 開始
 
-> A-Frame provides easy-to-use HTML elements for starters called
-[primitives](https://aframe.io/docs/0.5.0/primitives/). In the sections below,
-we'll modify basic meshes through HTML attributes (e.g., change colors,
-positions, rotations, scale) and get a feel for the workflow.
+> A-Frame 為初學者提供了一些容易使用的 HTML 元素，
+> 我們稱之為 [基本型（primitive）](https://aframe.io/docs/0.5.0/primitives/)。
+> 在下一節裡，我們會藉由調整 HTML 屬性方式來修改些東西（像是改顏色、位置、旋轉、大小等等），
+> 感受一下整體作業流程。
 
 <img data-src="media/img/hellowebvr2.jpg">
 
@@ -200,80 +186,75 @@ positions, rotations, scale) and get a feel for the workflow.
 
 ---
 
-## Start with *Hello, WebVR* &mdash; Position
+## 就從 *Hello, WebVR* 開始 &mdash; 位置（Position）
 
-> Position defines where objects are in 3D space (X, Y, Z) in meters. Change
-> the `position` of the objects via the `position` HTML attribute values. [Read about
-> positions](https://aframe.io/docs/master/components/position.html).
+> `position` 定義了物件在 3D 環境的位置（有 X、Y、Z 三個方向軸），單位為公尺。
+> 修改 `position` 這個 HTML 屬性值即可，詳情可[參考
+> position 組件的說明](https://aframe.io/docs/master/components/position.html)。
 
-[Remix Lesson on Glitch](https://glitch.com/~aframe-school-position)  <!-- .element: class="cta-button glitch" -->
+[在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-position)  <!-- .element: class="cta-button glitch" -->
 
-1. Move the cylinder left by *decreasing* the `position`'s X value
-2. Move the box up by *increasing * the `position`'s Y value
-3. Move the sphere back by *decreasing* the `position`'s Z value
-4. **Extra Credit:** Add `<a-ring>` as a child of `<a-sphere>` and give it a position to see relative positions
+1. *減少* `position` 屬性的 X 值，以便將圓柱體（cylinder）向左移
+2. *增加* `position` 屬性的 Y 值，以便將正方體（box）向上移
+3. *減少* `position` 屬性的 Z 值，以便將球體（sphere）向後移
+4. **加分題：** 在 `<a-sphere>` 中加上一個子元素  `<a-ring>`，賦予位置設定後來看看他們之間的相對關係
 
 <img class="stretch" data-src="media/img/positionresult.jpg">
 
-[View Result](https://aframe-school-position.glitch.me/solution.html)  <!-- .element: class="cta-button" -->
+[檢視最後成果](https://aframe-school-position.glitch.me/solution.html)  <!-- .element: class="cta-button" -->
 
 ---
 
-## Start with *Hello, WebVR* &mdash; Rotation
+## 就從 *Hello, WebVR* 開始 &mdash; 旋轉（Rotation）
 
-> Rotation defines orientation of objects in 3D space (about the X, Y, Z axes)
-> in degrees. Use the right-hand rule to spatially visualize rotation. [Read about
-> rotations](https://aframe.io/docs/master/components/rotation.html).
+> `rotation` 定義了物件在 3D 環境的旋轉角度（三個值分別為 X、Y、Z 三軸的旋轉角度），單位為度。
+> 旋轉時依據右手定律來看角度，詳情可[參考
+> rotation 組件的說明](https://aframe.io/docs/master/components/rotation.html)。
 
-[Remix Lesson on Glitch](https://glitch.com/~aframe-school-rotation)  <!-- .element: class="cta-button glitch" -->
+[在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-rotation)  <!-- .element: class="cta-button glitch" -->
 
-1. Rotate the cylinder around the X axis so we see the bottom
-2. Rotate the box around the Y axis so the box is facing straight
-3. **Extra Credit:** Wrap the scene contents in `<a-entity>` (like a `<div>`)
-and give it a rotation to see relative rotations
+1. 調整圓柱體（cylinder）的 X 軸旋轉角度，以便秀出圓柱的底
+2. 調整正方體（box）的 Y 軸旋轉角度，讓正面朝向鏡頭
+3. **加分題：** 將整個場景的內容用 `<a-entity>` 包起來（作用就像 `<div>` 一般），接著調整其旋轉角度，查看個物件的相對旋轉方式
 
 <img class="stretch" data-src="media/img/rotationresult.jpg">
 
-[View Result](https://aframe-school-rotation.glitch.me/solution.html)  <!-- .element: class="cta-button" -->
+[檢視最後成果](https://aframe-school-rotation.glitch.me/solution.html)  <!-- .element: class="cta-button" -->
 
 ---
 
-## Start with *Hello, WebVR* &mdash; Add Primitives
+## 就從 *Hello, WebVR* 開始 &mdash; 增加其他基本型
 
-> Add primitives the scene by adding HTML elements under `<a-scene>`.  [Read
-> about primitives](https://aframe.io/docs/0.5.0/primitives/).
+> 在 `<a-scene>` 裡可以加入其他 HTML 元素，並藉此添增其他基本型。
+> [可參考基本型的相關說明](https://aframe.io/docs/0.5.0/primitives/)。
 
-[Remix Lesson on Glitch](https://glitch.com/~aframe-school-primitives)  <!-- .element: class="cta-button glitch" -->
+[在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-primitives)  <!-- .element: class="cta-button glitch" -->
 
-1. Add [`<a-torus-knot>`](https://aframe.io/docs/0.5.0/primitives/a-torus-knot.html) to the left
-2. Add [`<a-dodecahedron>`](https://aframe.io/docs/0.5.0/primitives/a-dodecahedron.html) to the right
-3. Add [`<a-text>`](https://aframe.io/docs/0.5.0/primitives/a-text.html) aligned in the center
+1. 在左側加上 [`<a-torus-knot>`](https://aframe.io/docs/0.5.0/primitives/a-torus-knot.html)
+2. 在右側加上 [`<a-dodecahedron>`](https://aframe.io/docs/0.5.0/primitives/a-dodecahedron.html)
+3. 於畫面中間加入 [`<a-text>`](https://aframe.io/docs/0.5.0/primitives/a-text.html)
 
 <img class="stretch" data-src="https://cloud.githubusercontent.com/assets/674727/24266010/9c57cbe4-0fc2-11e7-968f-168f3649d109.png">
 
-[View Result](https://aframe-school-primitives.glitch.me/solution.html)  <!-- .element: class="cta-button" -->
+[檢視最後成果](https://aframe-school-primitives.glitch.me/solution.html)  <!-- .element: class="cta-button" -->
 
 ------
 
-## Add Textures &mdash; Uploading Assets
+## 添加材質 &mdash; 上傳素材
 
-> We'll be adding image textures to meshes to more appearance than a flat color.
-> [Find your own images
-> online](https://aframe.io/docs/0.5.0/introduction/faq.html#where-can-i-find-assets),
-> and upload them through the assets section in Glitch or through the uploader on
-> [cdn.aframe.io](https://cdn.aframe.io). Wherever else you may upload, make sure
-> it's being served with
-> [CORS](https://developer.mozilla.org/docs/Web/HTTP/Access_control_CORS) and
-> over HTTPS.
+> 接著我們要為這些物件添加一些圖片材質，看起來會比單純的色彩還讚。[你可以在網路上找一些圖
+> 片](https://aframe.io/docs/0.5.0/introduction/faq.html#where-can-i-find-assets)，
+> 然後上傳到 Glitch 的 assets 區或 [cdn.aframe.io](https://cdn.aframe.io)。
+> 不管你要傳到哪裡，都記得要透過 HTTPS 傳輸，也要留意
+> [CORS](https://developer.mozilla.org/docs/Web/HTTP/Access_control_CORS) 問題。
 
 <img class="stretch" data-src="media/img/glitchasset.jpg">
 
-In the Glitch below **&darr;**, some assets will already be provided in the
-assets section (pictured above).
+接下來在本課程的 Glitch 中 **&darr;**，上圖所列出的素材已經先幫你傳到 assets 裡了。
 
 ---
 
-## Add Textures &mdash; Image Textures
+## 添加材質 &mdash; 圖片材質
 
 > Fill in the `src` HTML attributes with image URLs. [Read about applying an
 > image texture](https://aframe.io/docs/0.5.0/guides/#applying-an-image-texture).
