@@ -435,15 +435,13 @@ System](https://www.npmjs.com/package/aframe-particle-system-component) 組件�
 
 ## 使用 JavaScript &mdash; 建立實體
 
-> Use [`document.createElement()`](https://developer.mozilla.org/docs/Web/API/Document/createElement)
-> to create entities, `.setAttribute()` to configure them, and `.appendChild()`
-> to add them to the scene.  [Read about creating
-> entities](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#creating-an-entity-with-createelement).
+> 使用 [`document.createElement()`](https://developer.mozilla.org/docs/Web/API/Document/createElement)
+> 建立實體，然後可以用 `.setAttribute()` 加以設定，最後以 `.appendChild()` 加入場景中。
+> [請參考與建立實體相關的文件說明](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#creating-an-entity-with-createelement)。
 
 [在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-js)  <!-- .element: class="cta-button glitch" -->
 
-1. In a JavaScript `for` loop, create and add 50 `<a-box>` elements with
-random positions and scales (use `Math.random()`)
+1. 採用 JavaScript 的 `for` 迴圈建立 50 個 `<a-box>`，其位置與大小都隨機產生（提示：使用 `Math.random()`）
 
 [檢視最後成果](https://aframe-school-js.glitch.me/solution3.html)  <!-- .element: class="cta-button" -->
 
@@ -451,21 +449,16 @@ random positions and scales (use `Math.random()`)
 
 ## 使用 JavaScript &mdash; 處理事件
 
-> Use
+> 使用
 > [`.addEventListener()`](https://developer.mozilla.org/docs/Web/API/EventTarget/addEventListener)
-> to register a handler function that will be called when an event is emitted.
-> Then manually emit that event to see that handler function execute. Later we
-> can use event listeners to change the scene based on user input or other
-> events. [Read about events and event listeners with
-> A-Frame](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#events-and-event-listeners).
+> 來註冊特定事件觸發時的處理函式，
+> 接著再自行觸動該事件，看看處理函式是否正常運作。之後我們可以監聽事件，依據使用者輸入或其他事件來更動場景。
+> [請參考 A-Frame 中使用事件及監聽式的說明文件](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#events-and-event-listeners)。
 
 [在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-js)  <!-- .element: class="cta-button glitch" -->
 
-1. Register an event listener on the box to listen to the `foo` event. In the
-   handler function, change the box's color
-2. Emit the `foo` event with
-[`Entity.emit()`](https://aframe.io/docs/0.5.0/core/entity.html#emit-name-detail-bubbles)
-and see the box change its color
+1. 監聽正方體的 `foo` 事件，並且在事件觸發時更動正方體的色彩。
+2. 手動以 [`Entity.emit()`](https://aframe.io/docs/0.5.0/core/entity.html#emit-name-detail-bubbles) 觸發 `foo`，看看正方體是否正確更動色彩。
 
 [檢視最後成果](https://aframe-school-js.glitch.me/solution4.html)  <!-- .element: class="cta-button" -->
 
