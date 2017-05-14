@@ -464,69 +464,61 @@ System](https://www.npmjs.com/package/aframe-particle-system-component) 組件�
 
 ------
 
-## 採用注視型游標的互動方式 &mdash; 加上 cursor 實體
+## 採用視覺準心的互動方式 &mdash; 加上 cursor 實體
 
-> Use the gaze-based [`cursor`
-> component](https://aframe.io/docs/0.5.0/components/cursor.html) to provide
-> the ability to interact with entities (primarily for smartphones).  [Read
-> about building a 360&deg; image
-> gallery](https://aframe.io/docs/0.5.0/guides/building-with-components.html).
+> 使用視覺準心的 [`cursor`
+> 組件](https://aframe.io/docs/0.5.0/components/cursor.html) 來提供與實體互動的方式
+> ，這種方式一般都用在智慧型手機上。 [請參考建立 360&deg; 照片集的
+> 相關文件](https://aframe.io/docs/0.5.0/guides/building-with-components.html).
 
 [在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-cursor)  <!-- .element: class="cta-button glitch" -->
 
-This lesson has all the event listeners hooked up already. We just need to add
-an entity with the `cursor` component which will provide those events based on
-user input.  Note these events are not provided by the browser, but through
-A-Frame.
+這一刻裡，所有事件的監聽式都已經加上去了，您只需要加上個含有 `cursor` 組件的實體，
+以便透過使用者的行為觸發事件即可。需注意，這些事件並非由瀏覽器提供，而是由 A-Frame 提供。
 
-1. Add [`<a-camera>`](https://aframe.io/docs/0.5.0/components/camera.html) entity.
-   Previously A-Frame was providing a default camera
-2. Add [`<a-cursor>`](https://aframe.io/docs/0.5.0/components/cursor.html) entity
-   as a child underneath the camera entity
-3. Drag the camera around the click on the panels on desktop. On smartphones,
-   stare at the panels to trigger clicks (i.e., gaze-based)
+1. 加上 [`<a-camera>`](https://aframe.io/docs/0.5.0/components/camera.html) 實體。先前的範例裡，
+   A-Frame 其實提供了預設的攝影視角。
+2. 加上 [`<a-cursor>`](https://aframe.io/docs/0.5.0/components/cursor.html) 實體，作為前一個攝影機
+   的子實體。
+3. 在桌機上，以滑鼠拖曳視角，讓準心對準面板後點擊滑鼠；在手機上，則只要移動手機注視著面板即可（此即「視覺準心」）。
 
 <img class="stretch" data-src="media/img/gaze.gif">
 
-[檢視最後成果](https://glitch.com/~aframe-school-cursor)  <!-- .element: class="cta-button glitch" -->
+[檢視最後成果](https://aframe-school-cursor.glitch.me/solution.html)  <!-- .element: class="cta-button glitch" -->
 
 ---
 
-## 採用注視型游標的互動方式 &mdash; 處理事件
+## 採用視覺準心的互動方式 &mdash; 處理事件
 
-> Use the `click`, `mouseenter`, `mouseleave` events provided by the gaze-based
-> [`cursor` component](https://aframe.io/docs/0.5.0/components/cursor.html) to
-> change the properties of an object.
+> 使用視覺準心之
+> [`cursor` 組件](https://aframe.io/docs/0.5.0/components/cursor.html) 所提供的
+> `click`、`mouseenter` 及 `mouseleave` 等事件來修改物件的屬性。
 
-The Glitch code will have the project structure set up. We can add JavaScript
-code inside the `handle-events` component, marked by the code comments.
+Glitch 上的程式已經將專案的結構都設定好了，我們接著要在 `handle-events` 組件裡（註解所提示的地方）加上 JavaScript 程式。
 
-[在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-cursor-handler)  <!-- .element: class="cta-button glitch" -->
+[在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-cursor-handler-patch)  <!-- .element: class="cta-button glitch" -->
 
-1. Attach our `controller-event-handler` to the cubes. We can attach to all of them at once through the mixin
-2. Add an event listener to change the box's color on `mouseenter` event
-3. Add an event listener to restore the box's color on `mouseleave` event
+1. 將我們剛剛寫的組件 `handle-events` 加到方塊上。多種監聽、一次滿足 ;)
+2. 在組件內為 `mouseenter` 事件加上監聽式，觸發時更動方塊的顏色
+3. 在組件內為 `mouseleave` 事件加上監聽式，觸發時恢復方塊的顏色
 
 <img class="stretch" data-src="media/img/gazehandler.gif">
 
-[檢視最後成果](https://aframe-school-cursor-handler.glitch.me/solution.html)  <!-- .element: class="cta-button glitch" -->
+[檢視最後成果](https://aframe-school-cursor-handler-patch.glitch.me/solution.html)  <!-- .element: class="cta-button glitch" -->
 
 ------
 
 ## 加入 3D 模型 &mdash; glTF 模型
 
-> 3D models are like the images of 3D and VR applications, although a bit
-> heavier. A 3D model is created beforehand in a 3D modeling program such as
-> [Blender](https://www.blender.org/) and consists of vertices, textures,
-> materials. We recommend using [glTF](https://github.com/KhronosGroup/glTF), a
-> relatively new 3D file format standard tailored for the Web. glTF is like the
-> JPG of 3D models.
+> 3D 模型就像是在 3D 或 VR 軟體中的圖片一般，只是比較複雜一點 -- 在 3D 建模軟體（例如
+> [Blender](https://www.blender.org/)） 中，你可以設定多邊形、材質、素材等等預先建立模型。
+> 我們建議採用 [glTF](https://github.com/KhronosGroup/glTF)，這是針對 Web 設計的嶄新 3D 檔案格式，
+> 就好像是 3D 模型版的 JPEG 檔一樣。
 
 [在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-gltf-model)  <!-- .element: class="cta-button glitch" -->
 
-1. Add the `https://cdn.aframe.io/test-models/models/virtualcity/VC.gltf` to
-the `<a-asset-item id="model">`'s `src` attribute to preload the model
-2. Add `#model` to the `<a-gltf-model>`'s `src` attribute to set and add the model
+1. 為了預先載入模型，請將 `<a-asset-item id="cityModel">` 的 `src` 屬性設定為 `https://cdn.aframe.io/test-models/models/virtualcity/VC.gltf`
+2. 將 `<a-gltf-model>` 的 `src` 屬性設定為 `#cityModel`，真正在場景中使用這個模型。
 
 <img class="stretch" data-src="https://cloud.githubusercontent.com/assets/674727/24275925/63067074-0ff0-11e7-9440-7c855b9ea0fd.png">
 
@@ -536,17 +528,12 @@ the `<a-asset-item id="model">`'s `src` attribute to preload the model
 
 ## 加入 3D 模型 &mdash; glTF 模型動畫
 
-> Models can come with animations. The model provided above has many animations
-> of ships zooming across the city. In the previous Glitch, we've provided a simple
-> `play-all-model-animations` component that we can attach to our model to play
-> its animations. Continue working from your current Glitch.
+> 模型有時會帶著動畫。方才加上的模型裡，正帶有許多船隻遊走於城市中的動畫。
+> 我們可以在前一份 Glitch 上加入 `animation-mixer` 這個組件以播放其所有動畫。
+> 接著我們就從上一頁的成果繼續操作。
 
-1. Include the `animation-mixer` component via a `<script>` in the
-`<head>` after the A-Frame script. This component is currently in the Registry,
-and may one day be included with A-Frame. `https://unpkg.com/aframe-extras.animation-mixer@3.4.0/dist/aframe-extras.animation-mixer.js`
-2. Attach the `animation-mixer` component to the `<a-gltf-model>` by
-setting it via an HTML attribute `animation-mixer`. By default, this will play all
-the animations of the model at once.
+1. 在 `<head>` 中的 A-Frame 程式之後，用個 `<script>` 引入 `animation-mixer` 組件。目前，這個組件可由 Registry 尋得，或許某天會內建於 A-Frame 之中。 `https://unpkg.com/aframe-extras.animation-mixer@3.4.0/dist/aframe-extras.animation-mixer.js`
+2. 在 `<a-gltf-model>` 加上 `animation-mixer` 屬性以附加組件。預設狀態下，這樣就會將模型所自帶的所有動畫同步播放。
 
 <img class="stretch" data-src="media/img/gltf.gif">
 
@@ -556,11 +543,9 @@ the animations of the model at once.
 
 ## 加入 3D 模型 &mdash; 上傳 3D 模型
 
-> If you have a model of your own, it can be tricky to upload it to a CDN since
-> it consists of multiple files that reference each other. So far the easiest
-> way we've found is to dump them into a GitHub repo, publish the repo's master
-> branch to GitHub Pages, and use `rawgit.com` to serve them. Alternatively,
-> set up Amazon S3. More to come.
+> 如果你自己建了個 3D 模型，由於當中牽扯許多相互參照的素材或檔案，想要丟上 CDN 來使用可能有點麻煩。
+> 目前我們發現最簡單的方法是直接把東西丟進 GitHub repo、將該 repo 的 master 分支發布為 GitHub Pages，
+> 接著使用 `rawgit.com` 來存取。或者，也可以選擇丟上 Amazon S3。日後這一頁會加上其他相關資訊。
 
 ------
 
