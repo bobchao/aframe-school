@@ -64,7 +64,7 @@
 
 <img class="stretch" data-src="media/img/glitch2.jpg">
 
-[在 Glitch 上重混 A-Frame 新手起步專案](https://glitch.com/~aframe/)  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe/" target="_blank">在 Glitch 上重混 A-Frame 新手起步專案</a>  <!-- .element: class="cta-button glitch" -->
 
 ---
 
@@ -192,7 +192,7 @@ SimpleHTTPServer`
 > 修改 `position` 這個 HTML 屬性值即可，詳情可[參考
 > position 組件的說明](https://aframe.io/docs/master/components/position.html)。
 
-[在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-position)  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-position" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
 1. *減少* `position` 屬性的 X 值，以便將圓柱體（cylinder）向左移
 2. *增加* `position` 屬性的 Y 值，以便將正方體（box）向上移
@@ -201,7 +201,7 @@ SimpleHTTPServer`
 
 <img class="stretch" data-src="media/img/positionresult.jpg">
 
-[檢視最後成果](https://aframe-school-position.glitch.me/solution.html)  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-position.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
 
 ---
 
@@ -211,7 +211,7 @@ SimpleHTTPServer`
 > 旋轉時依據右手定律來看角度，詳情可[參考
 > rotation 組件的說明](https://aframe.io/docs/master/components/rotation.html)。
 
-[在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-rotation)  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-rotation" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
 1. 調整圓柱體（cylinder）的 X 軸旋轉角度，以便秀出圓柱的底
 2. 調整正方體（box）的 Y 軸旋轉角度，讓正面朝向鏡頭
@@ -219,7 +219,7 @@ SimpleHTTPServer`
 
 <img class="stretch" data-src="media/img/rotationresult.jpg">
 
-[檢視最後成果](https://aframe-school-rotation.glitch.me/solution.html)  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-rotation.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
 
 ---
 
@@ -228,7 +228,7 @@ SimpleHTTPServer`
 > 在 `<a-scene>` 裡可以加入其他 HTML 元素，並藉此添增其他基本型。
 > [可參考基本型的相關說明](https://aframe.io/docs/0.5.0/primitives/)。
 
-[在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-primitives)  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-primitives" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
 1. 在左側加上 [`<a-torus-knot>`](https://aframe.io/docs/0.5.0/primitives/a-torus-knot.html)
 2. 在右側加上 [`<a-dodecahedron>`](https://aframe.io/docs/0.5.0/primitives/a-dodecahedron.html)
@@ -236,7 +236,7 @@ SimpleHTTPServer`
 
 <img class="stretch" data-src="https://cloud.githubusercontent.com/assets/674727/24266010/9c57cbe4-0fc2-11e7-968f-168f3649d109.png">
 
-[檢視最後成果](https://aframe-school-primitives.glitch.me/solution.html)  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-primitives.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
 
 ------
 
@@ -259,7 +259,7 @@ SimpleHTTPServer`
 > 在 HTML 的 `src` 屬性裡填上圖片的 URL。[請參考將圖片設定為材質的
 > 相關說明](https://aframe.io/docs/0.5.0/guides/#applying-an-image-texture)。
 
-[在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-textures/)  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-textures/" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
 1. 為地板 `<a-plane>` 設定圖片材質
 2. 為每個 `<a-box>` 設定圖片材質
@@ -269,7 +269,7 @@ SimpleHTTPServer`
 
 <img class="stretch" data-src="media/img/texture.jpg">
 
-[檢視最後成果](https://aframe-school-textures.glitch.me/solution.html)  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-textures.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
 
 ------
 
@@ -290,7 +290,7 @@ SimpleHTTPServer`
 > 此範例裡有個由社群撰寫的 [text-geometry 組件](https://www.npmjs.com/package/aframe-text-geometry-component)，
 > Inspector 也能正確修改其設定值。
 
-[到 Glitch 開啟這一課的範例](https://aframe-vaporwave.glitch.me)  <!-- .element: class="cta-button glitch" -->
+<a href="https://aframe-vaporwave.glitch.me" target="_blank">到 Glitch 開啟這一課的範例</a>  <!-- .element: class="cta-button glitch" -->
 
 1. 選定範例中的某個實體
 2. 修改其 [`text-geometry` 組件](https://www.npmjs.com/package/aframe-text-geometry-component) 的 `value` 值
@@ -306,7 +306,7 @@ SimpleHTTPServer`
 > 並且直接套用在當前場景中的實體上。
 > Registry 是編排過的 A-Frame 組件集，而 Inspector 可整合 Registry，直接在實體面板中套用 Registry 收錄的組件。
 
-[到 Glitch 開啟這一課的範例](https://aframe-vaporwave.glitch.me)  <!-- .element: class="cta-button glitch" -->
+<a href="https://aframe-vaporwave.glitch.me" target="_blank">到 Glitch 開啟這一課的範例</a>  <!-- .element: class="cta-button glitch" -->
 
 1. 為地板加上 `static-body` 組件
 2. 為麻花結（後面那個紫色的東西）加上 `dynamic-body` 組件
@@ -322,7 +322,7 @@ SimpleHTTPServer`
 > 在那些好用的基本型之下，A-Frame 採用的是實體-組件的架構。我們回頭看一下
 > *Hello, WebVR* 範例，並且嘗試將內容都解構為 `<a-entity>` 及其基礎組件。
 
-[在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-ecs)  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-ecs" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
 [geometry]: https://aframe.io/docs/0.5.0/components/geometry.html
 [material]: https://aframe.io/docs/0.5.0/components/material.html
@@ -333,7 +333,7 @@ SimpleHTTPServer`
 4. 將 `<a-plane>` 代換為擁有 [geometry][geometry] 及 [material][material] 組件的 `<a-entity>`，並設定 geometry 組件為 `primitive: plane`
 5. 將 `<a-sky>` 代換為擁有 [geometry][geometry] 及 [material][material] 組件的 `<a-entity>`，並設定 geometry 組件為 `primitive: sphere` 加上 `radius: 3000`。隨後將 material 組件設定為 `shader: flat`，因為我們只需要單色，就不要花時間來計算光線效果了
 
-[檢視最後成果](https://aframe-school-ecs.glitch.me/solution.html)  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-ecs.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
 
 ---
 
@@ -348,11 +348,11 @@ SimpleHTTPServer`
 4. 加上 [light 組件](https://aframe.io/docs/0.5.0/components/light.html)，並設定為 `type: point`
 5. **加分題：** 透過 `<script>` 標籤從 [Registry](https://aframe.io/registry/) 為該實體加上 animation 組件，並設定 `property: position`、`dir: alternate` 及 `loop: true`，且用 `to: <POSITION>` 設定移動目的位置（x y z）。
 
-[在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-ecs-light-sphere)  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-ecs-light-sphere" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
 <img class="stretch" data-src="https://cloud.githubusercontent.com/assets/674727/24060160/2c53a604-0b0f-11e7-9386-f83a3a9b4cfc.gif">>
 
-[檢視最後成果](https://aframe-school-ecs-light-sphere.glitch.me/solution.html)  <!-- .element class="cta-button" -->
+<a href="https://aframe-school-ecs-light-sphere.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element class="cta-button" -->
 
 ------
 
@@ -371,11 +371,11 @@ System](https://www.npmjs.com/package/aframe-particle-system-component) 組件�
 及 `to: 1.1 1.1 1.1`
 3. 以 `<script>`加入 [Outline Effect](https://www.npmjs.com/package/aframe-outline-effect) 組件後，在場景加上 `outline` 試試。
 
-[在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-registry)  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-registry" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
 <img class="stretch" data-src="media/img/registryexample.gif">
 
-[檢視最後成果](https://aframe-school-registry.glitch.me/solution.html)  <!-- .element class="cta-button" -->
+<a href="https://aframe-school-registry.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element class="cta-button" -->
 
 ------
 
@@ -386,7 +386,7 @@ System](https://www.npmjs.com/package/aframe-particle-system-component) 組件�
 > APIs* with A-Frame](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html)
 > 一文。
 
-[在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-js)  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-js" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
 <img class="stretch" data-src="media/img/js.jpg">
 
@@ -404,7 +404,7 @@ System](https://www.npmjs.com/package/aframe-particle-system-component) 組件�
 > 取得場景及其中實體的參照。[請參閱查詢實體的相關文
 > 件](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#getting-entities-by-querying-and-traversing).
 
-[在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-js)  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-js" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
 1. 以 `var sceneEl = document.querySelector('a-scene');` 取得 `<a-scene>` 元素的參照
 2. 以 `sceneEl.querySelectorAll('a-entity');` 取得所有 `<a-entity>` 元素的參照
@@ -412,7 +412,7 @@ System](https://www.npmjs.com/package/aframe-particle-system-component) 組件�
 4. 自己試試：用一次 `.querySelectorAll()` 搭配多元素選取符，取得球體跟圓柱體的參照
 5. 自己試試：為球體跟圓柱體加上 class 後，用一次 `.querySelectorAll()` 取得他們的參照
 
-[檢視最後成果](https://aframe-school-js.glitch.me/solution.html)  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-js.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
 
 ---
 
@@ -423,13 +423,13 @@ System](https://www.npmjs.com/package/aframe-particle-system-component) 組件�
 > 來修改實體內的屬性。[請參閱關於修改實體的相關文
 > 件](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#modifying-an-entity)。
 
-[在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-js)  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-js" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
 1. 試著調整正方體的 `rotation` 組件
 2. 試著調整圓柱體的 `geometry` 組件之 `height` 屬性
 3. 試著調整球體的 `material` 組件之 `metalness` 屬性
 
-[檢視最後成果](https://aframe-school-js.glitch.me/solution2.html)  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-js.glitch.me/solution2.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
 
 ---
 
@@ -439,11 +439,11 @@ System](https://www.npmjs.com/package/aframe-particle-system-component) 組件�
 > 建立實體，然後可以用 `.setAttribute()` 加以設定，最後以 `.appendChild()` 加入場景中。
 > [請參考與建立實體相關的文件說明](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#creating-an-entity-with-createelement)。
 
-[在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-js)  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-js" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
 1. 採用 JavaScript 的 `for` 迴圈建立 50 個 `<a-box>`，其位置與大小都隨機產生（提示：使用 `Math.random()`）
 
-[檢視最後成果](https://aframe-school-js.glitch.me/solution3.html)  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-js.glitch.me/solution3.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
 
 ---
 
@@ -455,12 +455,12 @@ System](https://www.npmjs.com/package/aframe-particle-system-component) 組件�
 > 接著再自行觸動該事件，看看處理函式是否正常運作。之後我們可以監聽事件，依據使用者輸入或其他事件來更動場景。
 > [請參考 A-Frame 中使用事件及監聽式的說明文件](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#events-and-event-listeners)。
 
-[在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-js)  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-js" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
 1. 監聽正方體的 `foo` 事件，並且在事件觸發時更動正方體的色彩。
 2. 手動以 [`Entity.emit()`](https://aframe.io/docs/0.5.0/core/entity.html#emit-name-detail-bubbles) 觸發 `foo`，看看正方體是否正確更動色彩。
 
-[檢視最後成果](https://aframe-school-js.glitch.me/solution4.html)  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-js.glitch.me/solution4.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
 
 ------
 
@@ -471,7 +471,7 @@ System](https://www.npmjs.com/package/aframe-particle-system-component) 組件�
 > ，這種方式一般都用在智慧型手機上。 [請參考建立 360&deg; 照片集的
 > 相關文件](https://aframe.io/docs/0.5.0/guides/building-with-components.html).
 
-[在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-cursor)  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-cursor" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
 這一刻裡，所有事件的監聽式都已經加上去了，您只需要加上個含有 `cursor` 組件的實體，
 以便透過使用者的行為觸發事件即可。需注意，這些事件並非由瀏覽器提供，而是由 A-Frame 提供。
@@ -484,7 +484,7 @@ System](https://www.npmjs.com/package/aframe-particle-system-component) 組件�
 
 <img class="stretch" data-src="media/img/gaze.gif">
 
-[檢視最後成果](https://aframe-school-cursor.glitch.me/solution.html)  <!-- .element: class="cta-button glitch" -->
+<a href="https://aframe-school-cursor.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button glitch" -->
 
 ---
 
@@ -496,7 +496,7 @@ System](https://www.npmjs.com/package/aframe-particle-system-component) 組件�
 
 Glitch 上的程式已經將專案的結構都設定好了，我們接著要在 `handle-events` 組件裡（註解所提示的地方）加上 JavaScript 程式。
 
-[在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-cursor-handler-patch)  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-cursor-handler-patch" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
 1. 將我們剛剛寫的組件 `handle-events` 加到方塊上。多種監聽、一次滿足 ;)
 2. 在組件內為 `mouseenter` 事件加上監聽式，觸發時更動方塊的顏色
@@ -504,7 +504,7 @@ Glitch 上的程式已經將專案的結構都設定好了，我們接著要在 
 
 <img class="stretch" data-src="media/img/gazehandler.gif">
 
-[檢視最後成果](https://aframe-school-cursor-handler-patch.glitch.me/solution.html)  <!-- .element: class="cta-button glitch" -->
+<a href="https://aframe-school-cursor-handler-patch.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button glitch" -->
 
 ------
 
@@ -515,14 +515,14 @@ Glitch 上的程式已經將專案的結構都設定好了，我們接著要在 
 > 我們建議採用 [glTF](https://github.com/KhronosGroup/glTF)，這是針對 Web 設計的嶄新 3D 檔案格式，
 > 就好像是 3D 模型版的 JPEG 檔一樣。
 
-[在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-gltf-model)  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-gltf-model" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
 1. 為了預先載入模型，請將 `<a-asset-item id="cityModel">` 的 `src` 屬性設定為 `https://cdn.aframe.io/test-models/models/virtualcity/VC.gltf`
 2. 將 `<a-gltf-model>` 的 `src` 屬性設定為 `#cityModel`，真正在場景中使用這個模型。
 
 <img class="stretch" data-src="https://cloud.githubusercontent.com/assets/674727/24275925/63067074-0ff0-11e7-9440-7c855b9ea0fd.png">
 
-[檢視最後成果](https://aframe-school-gltf-model.glitch.me/solution.html)  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-gltf-model.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
 
 ---
 
@@ -537,7 +537,7 @@ Glitch 上的程式已經將專案的結構都設定好了，我們接著要在 
 
 <img class="stretch" data-src="media/img/gltf.gif">
 
-[檢視最後成果](https://aframe-school-gltf-model.glitch.me/solution2.html)  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-gltf-model.glitch.me/solution2.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
 
 ---
 
@@ -557,7 +557,7 @@ Glitch 上的程式已經將專案的結構都設定好了，我們接著要在 
 > Capture](https://github.com/dmarcos/aframe-motion-capture-components).
 > Now we just have to add the hands and handle the interaction events.
 
-[在 Glitch 上重混這一課的程式碼](https://glitch.com/~aframe-school-hand-controls)  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-hand-controls" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
 1. Find `<a-entity id="left">` and add the [hand-controls component](https://aframe.io/docs/0.5.0/components/hand-controls.html)
 configured to the left hand (`hand-controls="left"`)
@@ -567,7 +567,7 @@ configured to the right hand (`hand-controls="right"`)
 
 <img class="stretch" data-src="media/img/trackedcontrols.gif">
 
-[檢視最後成果](https://aframe-school-hand-controls.glitch.me/solution.html)  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-hand-controls.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
 
 ---
 
@@ -588,7 +588,7 @@ with the `mouseleave` event
 
 <img class="stretch" data-src="media/img/trackedcontrols2.gif">
 
-[檢視最後成果](https://aframe-school-hand-controls.glitch.me/solution2.html)  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-hand-controls.glitch.me/solution2.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
 
 ------
 
