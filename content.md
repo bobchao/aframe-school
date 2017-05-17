@@ -549,21 +549,20 @@ Glitch 上的程式已經將專案的結構都設定好了，我們接著要在 
 
 ------
 
-## Add Tracked Controls &mdash; Add Hand Controls
+## 定位控制器 &mdash; 「手」組件
 
-> Tracked hand controls provide immersion and interactivity with hand
-> controllers. In the following Glitch, we've pre-recorded hand control
-> movements and button presses with [A-Frame Motion
-> Capture](https://github.com/dmarcos/aframe-motion-capture-components).
-> Now we just have to add the hands and handle the interaction events.
+> 使用手持定位控制器時，hand-controls 組件可以提供沈浸式的互動體驗。我們已經先用 [A-Frame 動作捕捉
+> 組件](https://github.com/dmarcos/aframe-motion-capture-components)
+>「錄」了一段手持控制器的行為（包含移動及按鍵），在接下來的 Glitch 中只要把這套預錄的動作加入
+> 就能與場景互動。
 
 <a href="https://glitch.com/~aframe-school-hand-controls" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Find `<a-entity id="left">` and add the [hand-controls component](https://aframe.io/docs/0.5.0/components/hand-controls.html)
-configured to the left hand (`hand-controls="left"`)
-2. Find `<a-entity id="right">` and add the hand-controls component
-configured to the right hand (`hand-controls="right"`)
-3. View the result and see the hands moving with pre-recorded motions
+1. 找出 `<a-entity id="left">` 然後加上 [hand-controls 組件](https://aframe.io/docs/0.5.0/components/hand-controls.html)，
+並且設定為左手（`hand-controls="left"`）
+2. 找出 `<a-entity id="right">` 然後加上 hand-controls 組件
+並且設定為右手（`hand-controls="right"`）
+3. 檢視結果 - 剛剛加上的雙手會沿著預錄的方式動作。
 
 <img class="stretch" data-src="media/img/trackedcontrols.gif">
 
@@ -571,20 +570,18 @@ configured to the right hand (`hand-controls="right"`)
 
 ---
 
-## Add Tracked Controls &mdash; Add Interactivity
+## 定位控制器 &mdash; 來點互動
 
-> There are many components to add interactivity to hand controls.
+> 有很多種組件可以為 hand-controls 組件添增互動方式，例如
 > [controller-cursor](https://github.com/bryik/aframe-controller-cursor-component),
 > [aabb-collider +
 > grab](https://github.com/aframevr/aframe/tree/master/examples/showcase/tracked-controls/components),
-> [super-hands](https://github.com/wmurphyrd/aframe-super-hands-component). For
-> this lesson, we'll use controller-cursor that acts as a pointing laser for
-> each hand. Continue from your previous Glitch.
+> [super-hands](https://github.com/wmurphyrd/aframe-super-hands-component) 等等。這一課
+> 我們將用 controller-cursor 來讓雙手像是雷射筆一般，可以指向物件。
+> 請延續上一課的 Glitch 繼續操作。
 
-1. Add `controller-cursor` component to both hands
-2. In the `controller-event-handler` component, change the color of the boxes
-when they are hovered over with the `mouseenter` event, and restore the color
-with the `mouseleave` event
+1. 為兩隻手都加上 `controller-cursor` 組件
+2. 接著，在 `controller-event-handler` 組件中，讓方塊在 `mouseenter` 事件觸發時改變顏色，而在 `mouseleave` 事件觸發時又變回來。
 
 <img class="stretch" data-src="media/img/trackedcontrols2.gif">
 
