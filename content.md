@@ -2,8 +2,8 @@
 <!-- .slide: data-background="media/img/aframe.jpg" -->
 
 <div class="talk-title">
-  <h1>A-Frame School</h1>
-  <h3>An interactive course for WebVR</h3>
+  <h1>A-Frame 學院</h1>
+  <h3>WebVR 的互動式學習教材</h3>
   <p class="talk-info">
     <b><a href="https://aframe.io">aframe.io</a></b>
   </p>
@@ -11,29 +11,28 @@
 
 ------
 
-## Prologue
+## 序章
 
 <!-- .slide: data-background="media/img/aframe.jpg" -->
 
-> Using [Glitch](https://glitch.com), the School will give you step-by-step
-> exercises to help you jump into [WebVR](https://webvr.rocks)! The School has
-> sections going &larr; and &rarr; but also subsections going **&uarr; and
-> &darr;**:
+> 此教材將以 Step-by-step 的方式，透過 [Glitch](https://glitch.com) 練習，
+> 協助您快速進入 [WebVR](https://webvr.rocks) 的世界！  
+> 除了 &larr; 與 &rarr; 之外，這份教材裡也有 **&uarr; 及 &darr;** 的各節內容：
 
 <img class="stretch" data-src="media/img/navigation.jpg">
 
-**Navigate &darr;**
+**繼續往 &darr; 瀏覽**
 
 ---
 
-### Resources During Your Journey
+### 旅途中的各種實用資源
 
-1. [Skim through the docs and FAQ](https://aframe.io/docs/)
-2. [Get help from peeps on Slack](https://aframe.io/community/#slack)
-3. [Ask questions on Stack Overflow](http://stackoverflow.com/questions/ask/?tags=aframe)
-4. If you are in a live workshop event, please raise your hand if you have a question!
+1. [閱讀文件及 FAQ](https://aframe.io/docs/)
+2. [到 Slack 尋求同好協助](https://aframe.io/community/#slack)
+3. [在 Stack Overflow 上發問](http://stackoverflow.com/questions/ask/?tags=aframe)
+4. 如果您正在參與工作坊，有問題就直接舉手吧！
 
-**Navigate &rarr;**
+**繼續往 &rarr; 瀏覽**
 
 
 <!-- Lessons start below. -->
@@ -41,107 +40,98 @@
 
 ------
 
-## Glitch &mdash; Introduction
+## Glitch &mdash; 介紹
 
-> The School uses [Glitch](https://glitch.com) as your learning and development
-> environment for A-Frame.
+> 此教材使用 [Glitch](https://glitch.com) 作為 A-Frame 的教學用開發環境。
 
 <img class="stretch" data-src="media/img/glitch.jpg">
 
-- Glitch lets you code in the browser without having to set
-anything up
-- Glitch lets you **remix** projects to use existing A-Frame projects as a
-  starting point
-- Glitch instantly publishes and hosts your site with a URL (e.g.,
-  `https://aframe.glitch.me`)
-- Glitch updates your A-Frame site live on every code change
-- Glitch lets multiple people code on the same project
+- Glitch 讓你可以在瀏覽器裡直接編寫程式，什麼也不必安裝設定
+- Glitch 讓你可以**重混**別人已經寫好的 A-Frame 專案，不必從零開始
+- Glitch 可以存放你的作品，並即刻透過網址（像是 `https://aframe.glitch.me`）發佈
+- Glitch 可以在你更動 A-Frame 專案網站的程式碼時自動更新
+- Glitch 可以讓很多人共同編輯同一個專案
 
-*If you are interested in setting up a local development environment, skip ahead &darr;*
+*如果你想要自己設定本機開發環境，&darr; 面有相關說明*
 
 ---
 
-## Glitch &mdash; Remixing an Existing Project
+## Glitch &mdash; 重混既有專案
 
-> Glitch lets you remix or fork an existing project and use it as a base for your
-> new project. Before starting, we recommend linking Glitch to a [GitHub
-> account](https://github.com/). After you remix, Glitch will give you a random
-> project and URL name, which you can change.
+> 你可以在 Glitch 上重混或 fork 既有的專案，以別人做好的東西為新專案的起點。
+> 在開始之前，我們推薦你先將 Glitch 與 [GitHub 帳號](https://github.com/)連結。
+> 編寫完畢後，Glitch 會隨機提供一個網址，這個網址可以進一步修改。
 
 <img class="stretch" data-src="media/img/glitch2.jpg">
 
-<a href="https://glitch.com/~aframe/" target="_blank">Remix the A-Frame Starter Glitch</a>  <!-- .element: class="cta-button glitch" -->
+
+<a href="https://glitch.com/~aframe/" target="_blank">在 Glitch 上重混 A-Frame 新手起步專案</a>  <!-- .element: class="cta-button glitch" -->
+
 
 ---
 
-## Glitch &mdash; Editing Code
+## Glitch &mdash; 編寫程式
 
-> Once you've [remixed the A-Frame Starter Glitch](https://glitch.com/~aframe/),
-> check out where you'll be editing your code. Poke around and see that you can
-> even edit the backend server code, upload assets, create new files, or invite
-> others to edit with you!
+> 在[重混 A-Frame 新手起步專案](https://glitch.com/~aframe/)後，咱們好好看看這個
+> 編寫程式的地方。你還可以修改後端程式、上傳素材、建立新檔，甚至邀請其他人跟你一起寫程式！
 
 <img class="stretch" data-src="media/img/glitch3.jpg">
 
 ---
 
-## Glitch &mdash; Viewing Your Project
+## Glitch &mdash; 檢視專案成果
 
-> After you've poked around the editor, see the project live.
+> 看完編輯畫面後，我們來看看專案的成果畫面。
 
 <img class="stretch" data-src="media/img/glitch4.jpg">
 
 ---
 
-## Glitch &mdash; Exporting Your Project
+## Glitch &mdash; 匯出專案
 
-> At any time, if you want to download your project or export to GitHub, see the
-> *Advanced Options* menu. Downloading will give you a `.tgz` file which you can
-> unzip. For A-Frame projects, you mostly care about what's in the `public/`
-> folder, and ignore all the server-side code.
+> 如果你想要下載整個專案的文件，或將專案匯出到 GitHub，請到專案選單裡的 *Advanced Options*。
+> 點選 *Download Project* 後會給你一個 `.tgz` 檔，可以拿 ZIP 工具解開取得專案檔案。
+> 對於 A-Frame 專案來說，你想要的東西都會在 `public/` 資料夾中，而後端的程式檔案都可以不管。
 
 <img class="stretch" data-src="media/img/glitch5.jpg">
 
-If you download a project, you
-might be interested in setting up a web development environment in the next
-section **&darr;**. Else, head **&rarr;** to start with A-Frame!
+在下載專案後，如果你想要在自己的電腦上設定 Web 開發環境，那就請繼續往 **&darr;** 看；  
+不然，就直接往 **&rarr;** 來開始 A-Frame 之旅吧！
 
 ---
 
-## [Optional] Set Up a Web Development Environment
+## [非必備] 設定本機的 Web 開發環境
 
-> You can set up a full web development environment on your local machine, rather
-> than use Glitch's online web development environment.
+> 你可以在自己的電腦上設定完整的 Web 開發環境，不見得要仰賴 Glitch 的線上系統。
 
 <img class="stretch" data-src="media/img/webdevenv1.jpg">
 
-1. **Get a text editor:** [Atom](https://atom.io) is a good one to start with
-2. **Set up a local server:** Download and run [Mongoose
-Server](https://www.cesanta.com/products/binary) or run `python -m
-SimpleHTTPServer` in a terminal
-3. **Create a file `index.html`** and copy A-Frame code from the Glitch samples
-4. **Run a local server** in the same directory as the HTML file
-5. **Open the local server's URL** in your browser (e.g., `http://localhost:8000`)
-6. **Make changes** to your HTML file and refresh your browser to see the changes
-7. Optional: check out [ngrok](https://ngrok.io) to let any device on any
-network have access to your local server
+1. **挑個文字編輯器：** 拿 [Atom](https://atom.io) 作為入門還不錯
+2. **安裝本機的伺服器：** 您可下載 [Mongoose
+Server](https://www.cesanta.com/products/binary)，或在終端機中輸入 `python -m
+SimpleHTTPServer`
+3. **建立 `index.html` 檔**後複製 Glitch 範例裡的 A-Frame 程式碼過去
+4. 在 HTML 檔的同一個目錄下**執行本機伺服器**
+5. 在瀏覽器中**開啟本機伺服器的 URL**（例如 `http://localhost:8000`）
+6. **修改 HTML 檔**，然後重新讀取網頁來檢視調整結果
+7. 選配：可以考慮使用 [ngrok](https://ngrok.io) 來讓其他網段的任何設備都能存取本機伺服器
 
 ---
 
-## [Optional] Set Up a Web Development Environment &mdash; Get a Text Editor
+## [非必備] 設定本機的 Web 開發環境 &mdash; 挑個文字編輯器
 
-> [Atom](https://atom.io) is a good text editor to start if you don't have one.
-> Other popular options are [Notepad++](https://notepad-plus-plus.org/),
-> [Sublime](https://www.sublimetext.com/), [Brackets](http://brackets.io/), or
-> [vim](http://www.vim.org/download.php).
+> 如果你還沒有慣用的文字編輯器，[Atom](https://atom.io) 滿適合新手的。
+> 其他熱門的選項還包括 [Notepad++](https://notepad-plus-plus.org/)、
+> [Sublime](https://www.sublimetext.com/)、[Brackets](http://brackets.io/)以及
+> [vim](http://www.vim.org/download.php) 等。
 
 <img class="stretch" data-src="media/img/webdevenv2.jpg">
 
 ---
 
-## [Optional] Set Up a Web Development Environment &mdash; Set Up a Local Server
+## [非必備] 設定本機的 Web 開發環境 &mdash; 安裝本機的伺服器
 
-> You'll need a local HTTP server to serve your files to the browser.
+> 你會需要在本機安裝 HTTP 伺服器，以便將檔案送到瀏覽器.
 
 <div class="captioned-image-row small">
   <div>
@@ -160,39 +150,37 @@ network have access to your local server
 
 ---
 
-## [Optional] Set Up a Web Development Environment &mdash; Use ngrok
+## [非必備] 設定本機的 Web 開發環境 &mdash; 使用 ngrok
 
-> Optionally, you can use [ngrok](https://ngrok.com/) to help develop your
-> A-Frame project on a smartphone without having to do the local IP address
-> dance.
+> 你也可以考慮使用 [ngrok](https://ngrok.com/)，在不用瞎搞 IP 位置的情況下方便
+> 於開發給手機使用的 A-Frame 專案。
 
-1. Download and unzip [ngrok](https://ngrok.com/download/) anywhere
-2. Run ngrok, providing it the port number of your local server (`./ngrok http 8080`)
-3. In the output, ngrok will give you a URL with a bunch of letters and numbers (e.g., `https://abcdef123456.ngrok.io`)
-4. Open that URL on another device on any network (such as a smartphone or another computer)
+1. 下載並解壓縮 [ngrok](https://ngrok.com/download/)
+2. 執行 ngrok，提供本機伺服器的通訊埠號（例如 `./ngrok http 8080`）
+3. 執行後，ngrok 會提供一串 URL 給你，例如 `https://abcdef123456.ngrok.io`
+4. 接著就可以在任何網段、任何設備上開啟這個 URL，存取本機伺服器資源了
 
 <img class="stretch" data-src="media/img/webdevenv3.jpg">
 
 ------
 
-## Try Out A-Frame Examples
+## 試試 A-Frame 的範例
 
-> Play with examples on your desktop or smartphone from the [A-Frame
-> Homepage](https://aframe.io), [A-Frame Blog](https://aframe.io/blog/), or
-> [awesome-aframe](https://github.com/aframevr/awesome-aframe). See
-> [webvr.rocks](https://webvr.rocks) for information on setting up WebVR with a
-> headset if you have one.
+> 在桌機或手機上打開 [A-Frame 的首頁](https://aframe.io)、
+> [A-Frame 網誌](https://aframe.io/blog/) 或
+> [awesome-aframe](https://github.com/aframevr/awesome-aframe)。  
+> 如果你有頭戴型顯示器，請參考 [webvr.rocks](https://webvr.rocks) 來設定 WebVR。
 
 <img data-src="media/img/examples.gif">
 
 ------
 
-## Start with *Hello, WebVR*
+## 就從 *Hello, WebVR* 開始
 
-> A-Frame provides easy-to-use HTML elements for starters called
-[primitives](https://aframe.io/docs/0.5.0/primitives/). In the sections below,
-we'll modify basic meshes through HTML attributes (e.g., change colors,
-positions, rotations, scale) and get a feel for the workflow.
+> A-Frame 為初學者提供了一些容易使用的 HTML 元素，
+> 我們稱之為 [基本型（primitive）](https://aframe.io/docs/0.5.0/primitives/)。
+> 在下一節裡，我們會藉由調整 HTML 屬性方式來修改些東西（像是改顏色、位置、旋轉、大小等等），
+> 感受一下整體作業流程。
 
 <img data-src="media/img/hellowebvr2.jpg">
 
@@ -200,447 +188,462 @@ positions, rotations, scale) and get a feel for the workflow.
 
 ---
 
-## Start with *Hello, WebVR* &mdash; Position
+## 就從 *Hello, WebVR* 開始 &mdash; 位置（Position）
 
-> Position defines where objects are in 3D space (X, Y, Z) in meters. Change
-> the `position` of the objects via the `position` HTML attribute values. [Read about
-> positions](https://aframe.io/docs/master/components/position.html).
+> `position` 定義了物件在 3D 環境的位置（有 X、Y、Z 三個方向軸），單位為公尺。
+> 修改 `position` 這個 HTML 屬性值即可，詳情可[參考
+> position 組件的說明](https://aframe.io/docs/master/components/position.html)。
 
-<a href="https://glitch.com/~aframe-school-position" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Move the cylinder left by *decreasing* the `position`'s X value
-2. Move the box up by *increasing * the `position`'s Y value
-3. Move the sphere back by *decreasing* the `position`'s Z value
-4. **Extra Credit:** Add `<a-ring>` as a child of `<a-sphere>` and give it a position to see relative positions
+<a href="https://glitch.com/~aframe-school-position" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
+
+
+1. *減少* `position` 屬性的 X 值，以便將圓柱體（cylinder）向左移
+2. *增加* `position` 屬性的 Y 值，以便將正方體（box）向上移
+3. *減少* `position` 屬性的 Z 值，以便將球體（sphere）向後移
+4. **加分題：** 在 `<a-sphere>` 中加上一個子元素  `<a-ring>`，賦予位置設定後來看看他們之間的相對關係
 
 <img class="stretch" data-src="media/img/positionresult.jpg">
 
-<a href="https://aframe-school-position.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-position.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
 
 ---
 
-## Start with *Hello, WebVR* &mdash; Rotation
+## 就從 *Hello, WebVR* 開始 &mdash; 旋轉（Rotation）
 
-> Rotation defines orientation of objects in 3D space (about the X, Y, Z axes)
-> in degrees. Use the right-hand rule to spatially visualize rotation. [Read about
-> rotations](https://aframe.io/docs/master/components/rotation.html).
+> `rotation` 定義了物件在 3D 環境的旋轉角度（三個值分別為 X、Y、Z 三軸的旋轉角度），單位為度。
+> 旋轉時依據右手定律來看角度，詳情可[參考
+> rotation 組件的說明](https://aframe.io/docs/master/components/rotation.html)。
 
-<a href="https://glitch.com/~aframe-school-rotation" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-rotation" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Rotate the cylinder around the X axis so we see the bottom
-2. Rotate the box around the Y axis so the box is facing straight
-3. **Extra Credit:** Wrap the scene contents in `<a-entity>` (like a `<div>`)
-and give it a rotation to see relative rotations
+1. 調整圓柱體（cylinder）的 X 軸旋轉角度，以便秀出圓柱的底
+2. 調整正方體（box）的 Y 軸旋轉角度，讓正面朝向鏡頭
+3. **加分題：** 將整個場景的內容用 `<a-entity>` 包起來（作用就像 `<div>` 一般），接著調整其旋轉角度，查看個物件的相對旋轉方式
 
 <img class="stretch" data-src="media/img/rotationresult.jpg">
 
-<a href="https://aframe-school-rotation.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-rotation.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
 
 ---
 
-## Start with *Hello, WebVR* &mdash; Add Primitives
+## 就從 *Hello, WebVR* 開始 &mdash; 增加其他基本型
 
-> Add primitives the scene by adding HTML elements under `<a-scene>`.  [Read
-> about primitives](https://aframe.io/docs/0.5.0/primitives/).
+> 在 `<a-scene>` 裡可以加入其他 HTML 元素，並藉此添增其他基本型。
+> [可參考基本型的相關說明](https://aframe.io/docs/0.5.0/primitives/)。
 
-<a href="https://glitch.com/~aframe-school-primitives" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-primitives" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Add [`<a-torus-knot>`](https://aframe.io/docs/0.5.0/primitives/a-torus-knot.html) to the left
-2. Add [`<a-dodecahedron>`](https://aframe.io/docs/0.5.0/primitives/a-dodecahedron.html) to the right
-3. Add [`<a-text>`](https://aframe.io/docs/0.5.0/primitives/a-text.html) aligned in the center
+1. 在左側加上 [`<a-torus-knot>`](https://aframe.io/docs/0.5.0/primitives/a-torus-knot.html)
+2. 在右側加上 [`<a-dodecahedron>`](https://aframe.io/docs/0.5.0/primitives/a-dodecahedron.html)
+3. 於畫面中間加入 [`<a-text>`](https://aframe.io/docs/0.5.0/primitives/a-text.html)
 
 <img class="stretch" data-src="https://cloud.githubusercontent.com/assets/674727/24266010/9c57cbe4-0fc2-11e7-968f-168f3649d109.png">
 
-<a href="https://aframe-school-primitives.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+
+<a href="https://aframe-school-primitives.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
+
 
 ------
 
-## Add Textures &mdash; Uploading Assets
+## 添加材質 &mdash; 上傳素材
 
-> We'll be adding image textures to meshes to more appearance than a flat color.
-> [Find your own images
-> online](https://aframe.io/docs/0.5.0/introduction/faq.html#where-can-i-find-assets),
-> and upload them through the assets section in Glitch or through the uploader on
-> [cdn.aframe.io](https://cdn.aframe.io). Wherever else you may upload, make sure
-> it's being served with
-> [CORS](https://developer.mozilla.org/docs/Web/HTTP/Access_control_CORS) and
-> over HTTPS.
+> 接著我們要為這些物件添加一些圖片材質，看起來會比單純的色彩還讚。[你可以在網路上找一些圖
+> 片](https://aframe.io/docs/0.5.0/introduction/faq.html#where-can-i-find-assets)，
+> 然後上傳到 Glitch 的 assets 區或 [cdn.aframe.io](https://cdn.aframe.io)。
+> 不管你要傳到哪裡，都記得要透過 HTTPS 傳輸，也要留意
+> [CORS](https://developer.mozilla.org/docs/Web/HTTP/Access_control_CORS) 問題。
 
 <img class="stretch" data-src="media/img/glitchasset.jpg">
 
-In the Glitch below **&darr;**, some assets will already be provided in the
-assets section (pictured above).
+接下來在本課程的 Glitch 中 **&darr;**，上圖所列出的素材已經先幫你傳到 assets 裡了。
 
 ---
 
-## Add Textures &mdash; Image Textures
+## 添加材質 &mdash; 圖片材質
 
-> Fill in the `src` HTML attributes with image URLs. [Read about applying an
-> image texture](https://aframe.io/docs/0.5.0/guides/#applying-an-image-texture).
+> 在 HTML 的 `src` 屬性裡填上圖片的 URL。[請參考將圖片設定為材質的
+> 相關說明](https://aframe.io/docs/0.5.0/guides/#applying-an-image-texture)。
 
-<a href="https://glitch.com/~aframe-school-textures/" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Add an image texture to the ground, `<a-plane>`
-2. Add image textures to `<a-box>`es
-3. Add an image texture to `<a-sphere>`
-4. Add an image texture to `<a-cone>`
-5. Add an image texture to the background, `<a-sky>`. Find [360&deg; images from FLickr](https://www.flickr.com/groups/equirectangular/)
+<a href="https://glitch.com/~aframe-school-textures/" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
+
+
+1. 為地板 `<a-plane>` 設定圖片材質
+2. 為每個 `<a-box>` 設定圖片材質
+3. 為 `<a-sphere>` 設定圖片材質
+4. 為 `<a-cone>` 設定圖片材質
+5. 為背景 `<a-sky>` 設定圖片材質，可上 [Flickr 的 360&deg; 照片群組](https://www.flickr.com/groups/equirectangular/) 找尋適當圖片。
 
 <img class="stretch" data-src="media/img/texture.jpg">
 
-<a href="https://aframe-school-textures.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+
+<a href="https://aframe-school-textures.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
+
 
 ------
 
-## Open the A-Frame Inspector
+## 開啟 A-Frame Inspector
 
-> Hit **`<ctrl> + <alt> + i`** on **any** A-Frame scene to pop open a visual
-> editor, just like your browser's Dev Tools!  Try the Inspector on some of the
-> [homepage examples](https://aframe.io/examples/). [Read about the
-> Inspector](https://aframe.io/docs/master/guides/using-the-aframe-inspector.html).
+> 在**任何** A-Frame 場景中，你都可以按下 **`<ctrl> + <alt> + i`** 來開啟視覺化編輯器，
+> 就跟瀏覽器的開發工具一樣！你可以到[首頁的範例集](https://aframe.io/examples/)裡挑幾個來試試，
+> 也請參考 Inspector 相關說明](https://aframe.io/docs/master/guides/using-the-aframe-inspector.html)。
 
 <img class="stretch" data-src="media/img/inspector.gif">
 
 ---
 
-## Open the A-Frame Inspector &mdash; Change Component Values
+## 開啟 A-Frame Inspector &mdash; 調整組件設定值
 
-> Modify an entity by modifying its components on the right-hand panel. The
-> Inspector knows about all A-Frame components, including community components.
->  This example includes an external [text-geometry
-> component](https://www.npmjs.com/package/aframe-text-geometry-component), which
-> the Inspector can modify the values of live.
+> 在右側面板可以調整各實體上的組件設定值，藉此改變實體的外貌或行為。
+> Inspector 可以辨識出所有 A-Frame 的組件，即使是社群提供的組件亦不例外。
+> 此範例裡有個由社群撰寫的 [text-geometry 組件](https://www.npmjs.com/package/aframe-text-geometry-component)，
+> Inspector 也能正確修改其設定值。
 
-<a href="https://aframe-vaporwave.glitch.me" target="_blank">Open Example on Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Select one of the entities with text in the example
-2. Change the [`text-geometry` component's](https://www.npmjs.com/package/aframe-text-geometry-component) `value` property
+<a href="https://aframe-vaporwave.glitch.me" target="_blank">到 Glitch 開啟這一課的範例</a>  <!-- .element: class="cta-button glitch" -->
+
+
+1. 選定範例中的某個實體
+2. 修改其 [`text-geometry` 組件](https://www.npmjs.com/package/aframe-text-geometry-component) 的 `value` 值
 
 <img class="stretch" data-src="media/img/inspectorchange.jpg">
 
 ---
 
-## Open the A-Frame Inspector &mdash; Attach Components from the Registry
+## 開啟 A-Frame Inspector &mdash; 加入 Registry 目錄中的組件
 
-> Use [physics components](https://github.com/donmccurdy/aframe-physics-system)
-> from the [Registry](https://aframe.io/registry/) to add gravity and collisions.
-> The Registry is a curated collection of A-Frame components. And the Inspector
-> is hooked up to the Registry so we can add components from the Registry in the
-> entity panel.
+> 從 [Registry](https://aframe.io/registry/) 中可以
+> 找到 [physics 組件](https://github.com/donmccurdy/aframe-physics-system)，
+> 並且直接套用在當前場景中的實體上。
+> Registry 是編排過的 A-Frame 組件集，而 Inspector 可整合 Registry，直接在實體面板中套用 Registry 收錄的組件。
 
-<a href="https://aframe-vaporwave.glitch.me" target="_blank">Open Example on Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Add the `static-body` component to ground grid
-2. Add the `dynamic-body` component to the torus knot (the purple pretzel in the back)
-3. Increase the Y-position of the torus knot to make it higher up
-4. Exit the Inspector
+<a href="https://aframe-vaporwave.glitch.me" target="_blank">到 Glitch 開啟這一課的範例</a>  <!-- .element: class="cta-button glitch" -->
+
+
+1. 為地板加上 `static-body` 組件
+2. 為麻花結（後面那個紫色的東西）加上 `dynamic-body` 組件
+3. 提升麻花結的 Y-position 值，使其位置升高
+4. 離開 Inspector
 
 <img class="stretch" data-src="media/img/inspectorregistry.gif">
 
 ------
 
-## Compose with Entity-Component &mdash; Break Primitives Down
+## 以實體及組件編排場景內容 &mdash; 解構基本型
 
-> Behind the easy-to-use primitive elements, A-Frame is based on an
-> entity-component architecture. Decompose the primitive elements in the
-> *Hello, WebVR* example to `<a-entity>`s with their fundamental components.
+> 在那些好用的基本型之下，A-Frame 採用的是實體-組件的架構。我們回頭看一下
+> *Hello, WebVR* 範例，並且嘗試將內容都解構為 `<a-entity>` 及其基礎組件。
 
-<a href="https://glitch.com/~aframe-school-ecs" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+
+<a href="https://glitch.com/~aframe-school-ecs" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
+
 
 [geometry]: https://aframe.io/docs/0.5.0/components/geometry.html
 [material]: https://aframe.io/docs/0.5.0/components/material.html
 
-1. Convert `<a-box>` to `<a-entity>` with [geometry component][geometry] and [material component][material]. Configure the geometry component to be `primitive: box`
-2. Convert `<a-sphere>` to `<a-entity>` with geometry component and material component. Configure the geometry component to be `primitive: sphere`
-3. Convert `<a-cylinder>` to `<a-entity>` with geometry component and material component. Configure the geometry component to be `primitive: cylinder`
-4. Convert `<a-plane>` to `<a-entity>` with geometry component and material component. Configure the geometry component to be `primitive: plane`
-5. Convert `<a-sky>` to `<a-entity>` with geometry component and material component. Configure the geometry component to be `primitive: sphere` with a large `radius: 3000`, and configure the material component to be `shader: flat` so we don't do expensive lighting calculations when we just need a flat color
+1. 將 `<a-box>` 代換為擁有 [geometry][geometry] 及 [material][material] 組件的 `<a-entity>`，並設定 geometry 組件為 `primitive: box`
+2. 將 `<a-sphere>` 代換為擁有 [geometry][geometry] 及 [material][material] 組件的 `<a-entity>`，並設定 geometry 組件為 `primitive: sphere`
+3. 將 `<a-cylinder>` 代換為擁有 [geometry][geometry] 及 [material][material] 組件的 `<a-entity>`，並設定 geometry 組件為 `primitive: cylinder`
+4. 將 `<a-plane>` 代換為擁有 [geometry][geometry] 及 [material][material] 組件的 `<a-entity>`，並設定 geometry 組件為 `primitive: plane`
+5. 將 `<a-sky>` 代換為擁有 [geometry][geometry] 及 [material][material] 組件的 `<a-entity>`，並設定 geometry 組件為 `primitive: sphere` 加上 `radius: 3000`。隨後將 material 組件設定為 `shader: flat`，因為我們只需要單色，就不要花時間來計算光線效果了
 
-<a href="https://aframe-school-ecs.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+
+<a href="https://aframe-school-ecs.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
+
 
 ---
 
-## Compose with Entity-Component &mdash; Add a Light Source Sphere
+## 以實體及組件編排場景內容 &mdash; 添增點光源
 
-> Use the entity-component pattern to add a sphere that also acts as a point
-> light source. Mix together the geometry, material, and light components to
-> compose this type of object.
+> 我們要使用實體及組件的模式，新增一個圓體並令其成為點光源。
+> 要新增這樣的實體，必須混用 geometry、material 及 light 組件。
 
-1. Look for `<a-entity id="lightSphere">`
-2. Attach the [geometry component](https://aframe.io/docs/0.5.0/components/geometry.html) configured to use `primitive: sphere` to the entity
-3. Attach the [material component](https://aframe.io/docs/0.5.0/components/material.html) configured to use `color: #FFF` and `shader: flat` to the entity
-4. Attach the [light component](https://aframe.io/docs/0.5.0/components/light.html) configured to use `type: point` to the entity
-5. **Extra Credit:** Add the animation component from [the Registry](https://aframe.io/registry/) via a `<script>` tag. Attach the animation configured to use `property: position` and `dir: alternate` and `loop: true` and provide a position value for `to: <POSITION>`
+1. 找到 `<a-entity id="lightSphere">`
+2. 加上 [geometry 組件](https://aframe.io/docs/0.5.0/components/geometry.html)，並設定為 `primitive: sphere`
+3. 加上 [material 組件](https://aframe.io/docs/0.5.0/components/material.html)，並設定為 `color: #FFF` 及 `shader: flat`
+4. 加上 [light 組件](https://aframe.io/docs/0.5.0/components/light.html)，並設定為 `type: point`
+5. **加分題：** 透過 `<script>` 標籤從 [Registry](https://aframe.io/registry/) 為該實體加上 animation 組件，並設定 `property: position`、`dir: alternate` 及 `loop: true`，且用 `to: <POSITION>` 設定移動目的位置（x y z）。
 
-<a href="https://glitch.com/~aframe-school-ecs-light-sphere" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+
+<a href="https://glitch.com/~aframe-school-ecs-light-sphere" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
 <img class="stretch" data-src="https://cloud.githubusercontent.com/assets/674727/24060160/2c53a604-0b0f-11e7-9386-f83a3a9b4cfc.gif">>
 
-<a href="https://aframe-school-ecs-light-sphere.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element class="cta-button" -->
+<a href="https://aframe-school-ecs-light-sphere.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element class="cta-button" -->
+
 
 ------
 
-## Extend with Entity-Component &mdash; From the Registry
+## 以 Registry 擴充實體及組件
 
-> [The Registry](https://aframe.io/registry/) is a great place to grab cool
-> components that the community has added to A-Frame. Sort of like third-party
-> plugins. Find community components from the Registry, copy their JS links,
-> include them via a `<script>` tag, and use them straight from HTML.
+> [Registry 網站](https://aframe.io/registry/)是尋找社群組件的好去處，
+> 就像是所謂的外掛模組一樣能為 A-Frame 加強功能。只要從 Registry 找到適當的組件、
+> 複製其 JS 連結、再透過 `<script>` 引入檔案中就可直接在 HTML 裡使用。
 
-1. Include [Particle
-System](https://www.npmjs.com/package/aframe-particle-system-component). Attach
-`<a-entity>`s with `particle-system` components configured to `preset: default`
-and `preset: snow`. Open the Inspector to play with the values!
-2. Include [Animation](https://www.npmjs.com/package/aframe-animation-component). Attach
-animation to the sphere to throb its scale by configuring `animation` component
-with `property: scale`, `loop: true`, and `to: 1.1 1.1 1.1`
-3. Include [Outline Effect](https://www.npmjs.com/package/aframe-outline-effect). Drop in the
-`<script>` and attach the `outline` component to the scene
+1. 先加入 [Particle
+System](https://www.npmjs.com/package/aframe-particle-system-component) 組件，為每個
+`<a-entity>` 加上 `particle-system` 屬性後設定為 `preset: default` 與 `preset: snow`，
+接著開啟 Inspector 看看效果、調整屬性！
+2. 加入 [Animation](https://www.npmjs.com/package/aframe-animation-component) 組件，
+為球體套用縮放的動畫效果：加上 `animation` 屬性，並設定 `property: scale`、`loop: true`
+及 `to: 1.1 1.1 1.1`
+3. 以 `<script>`加入 [Outline Effect](https://www.npmjs.com/package/aframe-outline-effect) 組件後，在場景加上 `outline` 試試。
 
-<a href="https://glitch.com/~aframe-school-registry" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+
+<a href="https://glitch.com/~aframe-school-registry" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
 <img class="stretch" data-src="media/img/registryexample.gif">
 
-<a href="https://aframe-school-registry.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element class="cta-button" -->
+<a href="https://aframe-school-registry.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element class="cta-button" -->
+
 
 ------
 
-## Use JavaScript
+## 使用 JavaScript
 
-> Use JavaScript and DOM APIs to programmatically modify the scene and its
-> entities. A-Frame is not just HTML; A-Frame provides access to JavaScript,
-> DOM APIs, and three.js underneath for full control.  [Read about *Using
-> JavaScript and DOM APIs* with
-> A-Frame](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html).
+> 你可以使用 JavaScript 與 DOM API 來用程式操作、修改實體。A-Frame 不只能玩 HTML，更能透過
+> JavaScript、DOM API 及 three.js 發揮完整威力。[請參閱 *Using JavaScript and DOM
+> APIs* with A-Frame](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html)
+> 一文。
 
-<a href="https://glitch.com/~aframe-school-js" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+
+<a href="https://glitch.com/~aframe-school-js" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
+
 
 <img class="stretch" data-src="media/img/js.jpg">
 
-To see JavaScript logs, we can open the browser's development console by
-right-clicking the page, clicking *Inspect* or *Inspect Element*, and then
-clicking the *Console* tab. When viewing solutions, we can see the results
-through the browser console.
+若想看見 JavaScript 的記錄資訊，可以在網頁上按右鍵，點擊*檢測元素*後，在瀏覽器的開發工具裡切換到*主控台*。
+在檢視成果時，可以透過這個主控台來檢查內容。
 
 ---
 
-## Use JavaScript &mdash; Getting Entities
+## 使用 JavaScript &mdash; 取得實體
 
-> Use
+> 使用
 > [`document.querySelector()`](https://developer.mozilla.org/docs/Web/API/Document/querySelector)
-> and
+> 及
 > [`document.querySelectorAll()`](https://developer.mozilla.org/docs/Web/API/Document/querySelectorAll)
-> to get a reference to the scene and its entities.  [Read about querying for
-> entities](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#getting-entities-by-querying-and-traversing).
+> 取得場景及其中實體的參照。[請參閱查詢實體的相關文
+> 件](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#getting-entities-by-querying-and-traversing).
 
-<a href="https://glitch.com/~aframe-school-js" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Get a reference to the `<a-scene>` element using `var sceneEl = document.querySelector('a-scene');`
-2. Get a reference to all `<a-entity>` elements using `sceneEl.querySelectorAll('a-entity');`
-3. Get a reference to the box entity using `sceneEl.querySelector('#box');`
-4. Get a reference to the sphere and cylinder entities in one `.querySelectorAll()` call by using multi-element selector
-. Get a reference to the sphere and cylinder entities in one `.querySelectorAll()` call by adding and selecting HTML classes
+<a href="https://glitch.com/~aframe-school-js" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
-<a href="https://aframe-school-js.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+
+1. 以 `var sceneEl = document.querySelector('a-scene');` 取得 `<a-scene>` 元素的參照
+2. 以 `sceneEl.querySelectorAll('a-entity');` 取得所有 `<a-entity>` 元素的參照
+3. 以 `sceneEl.querySelector('#box');` 取得該方塊的參照
+4. 自己試試：用一次 `.querySelectorAll()` 搭配多元素選取符，取得球體跟圓柱體的參照
+5. 自己試試：為球體跟圓柱體加上 class 後，用一次 `.querySelectorAll()` 取得他們的參照
+
+
+<a href="https://aframe-school-js.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
+
 
 ---
 
-## Use JavaScript &mdash; Modifying Entities
+## 使用 JavaScript &mdash; 調整實體設定
 
-> Use
+> 在上一節的練習後，現在我們使用取回的參照，進一步以
 > [`Entity.setAttribute()`](https://aframe.io/docs/0.5.0/core/entity.html#setattribute-attr-value-componentattrvalue)
-> to modify entities after retrieving them from the previous exercise. [Read
-> about modifying
-> entities](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#modifying-an-entity).
+> 來修改實體內的屬性。[請參閱關於修改實體的相關文
+> 件](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#modifying-an-entity)。
 
-<a href="https://glitch.com/~aframe-school-js" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Change the box entity's `rotation` component
-2. Change the cylinder entity's `geometry` component's `height` property
-3. Change the sphere entity's `material` component's `metalness` property
+<a href="https://glitch.com/~aframe-school-js" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
-<a href="https://aframe-school-js.glitch.me/solution2.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
 
----
+1. 試著調整正方體的 `rotation` 組件
+2. 試著調整圓柱體的 `geometry` 組件之 `height` 屬性
+3. 試著調整球體的 `material` 組件之 `metalness` 屬性
 
-## Use JavaScript &mdash; Creating Entities
 
-> Use [`document.createElement()`](https://developer.mozilla.org/docs/Web/API/Document/createElement)
-> to create entities, `.setAttribute()` to configure them, and `.appendChild()`
-> to add them to the scene.  [Read about creating
-> entities](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#creating-an-entity-with-createelement).
+<a href="https://aframe-school-js.glitch.me/solution2.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
 
-<a href="https://glitch.com/~aframe-school-js" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
-
-1. In a JavaScript `for` loop, create and add 50 `<a-box>` elements with
-random positions and scales (use `Math.random()`)
-
-<a href="https://aframe-school-js.glitch.me/solution3.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
 
 ---
 
-## Use JavaScript &mdash; Handling Events
+## 使用 JavaScript &mdash; 建立實體
 
-> Use
+> 使用 [`document.createElement()`](https://developer.mozilla.org/docs/Web/API/Document/createElement)
+> 建立實體，然後可以用 `.setAttribute()` 加以設定，最後以 `.appendChild()` 加入場景中。
+> [請參考與建立實體相關的文件說明](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#creating-an-entity-with-createelement)。
+
+
+<a href="https://glitch.com/~aframe-school-js" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
+
+
+1. 採用 JavaScript 的 `for` 迴圈建立 50 個 `<a-box>`，其位置與大小都隨機產生（提示：使用 `Math.random()`）
+
+
+<a href="https://aframe-school-js.glitch.me/solution3.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
+
+
+---
+
+## 使用 JavaScript &mdash; 處理事件
+
+> 使用
 > [`.addEventListener()`](https://developer.mozilla.org/docs/Web/API/EventTarget/addEventListener)
-> to register a handler function that will be called when an event is emitted.
-> Then manually emit that event to see that handler function execute. Later we
-> can use event listeners to change the scene based on user input or other
-> events. [Read about events and event listeners with
-> A-Frame](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#events-and-event-listeners).
+> 來註冊特定事件觸發時的處理函式，
+> 接著再自行觸動該事件，看看處理函式是否正常運作。之後我們可以監聽事件，依據使用者輸入或其他事件來更動場景。
+> [請參考 A-Frame 中使用事件及監聽式的說明文件](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#events-and-event-listeners)。
 
-<a href="https://glitch.com/~aframe-school-js" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Register an event listener on the box to listen to the `foo` event. In the
-   handler function, change the box's color
-2. Emit the `foo` event with
-[`Entity.emit()`](https://aframe.io/docs/0.5.0/core/entity.html#emit-name-detail-bubbles)
-and see the box change its color
+<a href="https://glitch.com/~aframe-school-js" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
-<a href="https://aframe-school-js.glitch.me/solution4.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+
+1. 監聽正方體的 `foo` 事件，並且在事件觸發時更動正方體的色彩。
+2. 手動以 [`Entity.emit()`](https://aframe.io/docs/0.5.0/core/entity.html#emit-name-detail-bubbles) 觸發 `foo`，看看正方體是否正確更動色彩。
+
+
+<a href="https://aframe-school-js.glitch.me/solution4.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
+
 
 ------
 
-## Add Gaze-Based Cursor Interactions &mdash; Add Cursor Entity
+## 採用視覺準心的互動方式 &mdash; 加上 cursor 實體
 
-> Use the gaze-based [`cursor`
-> component](https://aframe.io/docs/0.5.0/components/cursor.html) to provide
-> the ability to interact with entities (primarily for smartphones).  [Read
-> about building a 360&deg; image
-> gallery](https://aframe.io/docs/0.5.0/guides/building-with-components.html).
+> 使用視覺準心的 [`cursor`
+> 組件](https://aframe.io/docs/0.5.0/components/cursor.html) 來提供與實體互動的方式
+> ，這種方式一般都用在智慧型手機上。 [請參考建立 360&deg; 照片集的
+> 相關文件](https://aframe.io/docs/0.5.0/guides/building-with-components.html).
 
-<a href="https://glitch.com/~aframe-school-cursor" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-This lesson has all the event listeners hooked up already. We just need to add
-an entity with the `cursor` component which will provide those events based on
-user input.  Note these events are not provided by the browser, but through
-A-Frame.
+<a href="https://glitch.com/~aframe-school-cursor" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Add [`<a-camera>`](https://aframe.io/docs/0.5.0/components/camera.html) entity.
-   Previously A-Frame was providing a default camera
-2. Add [`<a-cursor>`](https://aframe.io/docs/0.5.0/components/cursor.html) entity
-   as a child underneath the camera entity
-3. Drag the camera around the click on the panels on desktop. On smartphones,
-   stare at the panels to trigger clicks (i.e., gaze-based)
+
+這一刻裡，所有事件的監聽式都已經加上去了，您只需要加上個含有 `cursor` 組件的實體，
+以便透過使用者的行為觸發事件即可。需注意，這些事件並非由瀏覽器提供，而是由 A-Frame 提供。
+
+1. 加上 [`<a-camera>`](https://aframe.io/docs/0.5.0/components/camera.html) 實體。先前的範例裡，
+   A-Frame 其實提供了預設的攝影視角。
+2. 加上 [`<a-cursor>`](https://aframe.io/docs/0.5.0/components/cursor.html) 實體，作為前一個攝影機
+   的子實體。
+3. 在桌機上，以滑鼠拖曳視角，讓準心對準面板後點擊滑鼠；在手機上，則只要移動手機注視著面板即可（此即「視覺準心」）。
 
 <img class="stretch" data-src="media/img/gaze.gif">
 
-<a href="https://aframe-school-cursor.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element: class="cta-button glitch" -->
+
+<a href="https://aframe-school-cursor.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button glitch" -->
+
 
 ---
 
-## Add Gaze-Based Cursor Interactions &mdash; Handle Events
+## 採用視覺準心的互動方式 &mdash; 處理事件
 
-> Use the `click`, `mouseenter`, `mouseleave` events provided by the gaze-based
-> [`cursor` component](https://aframe.io/docs/0.5.0/components/cursor.html) to
-> change the properties of an object.
+> 使用視覺準心之
+> [`cursor` 組件](https://aframe.io/docs/0.5.0/components/cursor.html) 所提供的
+> `click`、`mouseenter` 及 `mouseleave` 等事件來修改物件的屬性。
 
-The Glitch code will have the project structure set up. We can add JavaScript
-code inside the `handle-events` component, marked by the code comments.
+Glitch 上的程式已經將專案的結構都設定好了，我們接著要在 `handle-events` 組件裡（註解所提示的地方）加上 JavaScript 程式。
 
-<a href="https://glitch.com/~aframe-school-cursor-handler" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Attach our `controller-event-handler` to the cubes. We can attach to all of them at once through the mixin
-2. Add an event listener to change the box's color on `mouseenter` event
-3. Add an event listener to restore the box's color on `mouseleave` event
+<a href="https://glitch.com/~aframe-school-cursor-handler-patch" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
+
+
+1. 將我們剛剛寫的組件 `handle-events` 加到方塊上。多種監聽、一次滿足 ;)
+2. 在組件內為 `mouseenter` 事件加上監聽式，觸發時更動方塊的顏色
+3. 在組件內為 `mouseleave` 事件加上監聽式，觸發時恢復方塊的顏色
 
 <img class="stretch" data-src="media/img/gazehandler.gif">
 
-<a href="https://aframe-school-cursor-handler.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element: class="cta-button glitch" -->
+
+<a href="https://aframe-school-cursor-handler-patch.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button glitch" -->
+
 
 ------
 
-## Add 3D Models &mdash; glTF Model
+## 加入 3D 模型 &mdash; glTF 模型
 
-> 3D models are like the images of 3D and VR applications, although a bit
-> heavier. A 3D model is created beforehand in a 3D modeling program such as
-> [Blender](https://www.blender.org/) and consists of vertices, textures,
-> materials. We recommend using [glTF](https://github.com/KhronosGroup/glTF), a
-> relatively new 3D file format standard tailored for the Web. glTF is like the
-> JPG of 3D models.
+> 3D 模型就像是在 3D 或 VR 軟體中的圖片一般，只是比較複雜一點 -- 在 3D 建模軟體（例如
+> [Blender](https://www.blender.org/)） 中，你可以設定多邊形、材質、素材等等預先建立模型。
+> 我們建議採用 [glTF](https://github.com/KhronosGroup/glTF)，這是針對 Web 設計的嶄新 3D 檔案格式，
+> 就好像是 3D 模型版的 JPEG 檔一樣。
 
-<a href="https://glitch.com/~aframe-school-gltf-model" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Add the `https://cdn.aframe.io/test-models/models/virtualcity/VC.gltf` to
-the `<a-asset-item id="cityModel">`'s `src` attribute to preload the model
-2. Add `#cityModel` to the `<a-gltf-model>`'s `src` attribute to set and add the model
+<a href="https://glitch.com/~aframe-school-gltf-model" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
+
+1. 為了預先載入模型，請將 `<a-asset-item id="cityModel">` 的 `src` 屬性設定為 `https://cdn.aframe.io/test-models/models/virtualcity/VC.gltf`
+2. 將 `<a-gltf-model>` 的 `src` 屬性設定為 `#cityModel`，真正在場景中使用這個模型。
 
 <img class="stretch" data-src="https://cloud.githubusercontent.com/assets/674727/24275925/63067074-0ff0-11e7-9440-7c855b9ea0fd.png">
 
-<a href="https://aframe-school-gltf-model.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-gltf-model.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
+
 
 ---
 
-## Add 3D Models &mdash; glTF Model Animations
+## 加入 3D 模型 &mdash; glTF 模型動畫
 
-> Models can come with animations. The model provided above has many animations
-> of ships zooming across the city. In the previous Glitch, we've provided a simple
-> `play-all-model-animations` component that we can attach to our model to play
-> its animations. Continue working from your current Glitch.
+> 模型有時會帶著動畫。方才加上的模型裡，正帶有許多船隻遊走於城市中的動畫。
+> 我們可以在前一份 Glitch 上加入 `animation-mixer` 這個組件以播放其所有動畫。
+> 接著我們就從上一頁的成果繼續操作。
 
-1. Include the `animation-mixer` component via a `<script>` in the
-`<head>` after the A-Frame script. This component is currently in the Registry,
-and may one day be included with A-Frame. `https://unpkg.com/aframe-extras.animation-mixer@3.4.0/dist/aframe-extras.animation-mixer.js`
-2. Attach the `animation-mixer` component to the `<a-gltf-model>` by
-setting it via an HTML attribute `animation-mixer`. By default, this will play all
-the animations of the model at once.
+1. 在 `<head>` 中的 A-Frame 程式之後，用個 `<script>` 引入 `animation-mixer` 組件。目前，這個組件可由 Registry 尋得，或許某天會內建於 A-Frame 之中。 `https://unpkg.com/aframe-extras.animation-mixer@3.4.0/dist/aframe-extras.animation-mixer.js`
+2. 在 `<a-gltf-model>` 加上 `animation-mixer` 屬性以附加組件。預設狀態下，這樣就會將模型所自帶的所有動畫同步播放。
 
 <img class="stretch" data-src="media/img/gltf.gif">
 
-<a href="https://aframe-school-gltf-model.glitch.me/solution2.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+
+<a href="https://aframe-school-gltf-model.glitch.me/solution2.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
+
 
 ---
 
-## Add 3D Models &mdash; Uploading 3D Models
+## 加入 3D 模型 &mdash; 上傳 3D 模型
 
-> If you have a model of your own, it can be tricky to upload it to a CDN since
-> it consists of multiple files that reference each other. So far the easiest
-> way we've found is to dump them into a GitHub repo, publish the repo's master
-> branch to GitHub Pages, and use `rawgit.com` to serve them. Alternatively,
-> set up Amazon S3. More to come.
+> 如果你自己建了個 3D 模型，由於當中牽扯許多相互參照的素材或檔案，想要丟上 CDN 來使用可能有點麻煩。
+> 目前我們發現最簡單的方法是直接把東西丟進 GitHub repo、將該 repo 的 master 分支發布為 GitHub Pages，
+> 接著使用 `rawgit.com` 來存取。或者，也可以選擇丟上 Amazon S3。日後這一頁會加上其他相關資訊。
 
 ------
 
-## Add Tracked Controls &mdash; Add Hand Controls
+## 定位控制器 &mdash; 「手」組件
 
-> Tracked hand controls provide immersion and interactivity with hand
-> controllers. In the following Glitch, we've pre-recorded hand control
-> movements and button presses with [A-Frame Motion
-> Capture](https://github.com/dmarcos/aframe-motion-capture-components).
-> Now we just have to add the hands and handle the interaction events.
+> 使用手持定位控制器時，hand-controls 組件可以提供沈浸式的互動體驗。我們已經先用 [A-Frame 動作捕捉
+> 組件](https://github.com/dmarcos/aframe-motion-capture-components)
+>「錄」了一段手持控制器的行為（包含移動及按鍵），在接下來的 Glitch 中只要把這套預錄的動作加入
+> 就能與場景互動。
 
-<a href="https://glitch.com/~aframe-school-hand-controls" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Find `<a-entity id="left">` and add the [hand-controls component](https://aframe.io/docs/0.5.0/components/hand-controls.html)
-configured to the left hand (`hand-controls="left"`)
-2. Find `<a-entity id="right">` and add the hand-controls component
-configured to the right hand (`hand-controls="right"`)
-3. View the result and see the hands moving with pre-recorded motions
+<a href="https://glitch.com/~aframe-school-hand-controls" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
+
+
+1. 找出 `<a-entity id="left">` 然後加上 [hand-controls 組件](https://aframe.io/docs/0.5.0/components/hand-controls.html)，
+並且設定為左手（`hand-controls="left"`）
+2. 找出 `<a-entity id="right">` 然後加上 hand-controls 組件
+並且設定為右手（`hand-controls="right"`）
+3. 檢視結果 - 剛剛加上的雙手會沿著預錄的方式動作。
 
 <img class="stretch" data-src="media/img/trackedcontrols.gif">
 
-<a href="https://aframe-school-hand-controls.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+
+<a href="https://aframe-school-hand-controls.glitch.me/solution.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
+
 
 ---
 
-## Add Tracked Controls &mdash; Add Interactivity
+## 定位控制器 &mdash; 來點互動
 
-> There are many components to add interactivity to hand controls.
+> 有很多種組件可以為 hand-controls 組件添增互動方式，例如
 > [controller-cursor](https://github.com/bryik/aframe-controller-cursor-component),
 > [aabb-collider +
 > grab](https://github.com/aframevr/aframe/tree/master/examples/showcase/tracked-controls/components),
-> [super-hands](https://github.com/wmurphyrd/aframe-super-hands-component). For
-> this lesson, we'll use controller-cursor that acts as a pointing laser for
-> each hand. Continue from your previous Glitch.
+> [super-hands](https://github.com/wmurphyrd/aframe-super-hands-component) 等等。這一課
+> 我們將用 controller-cursor 來讓雙手像是雷射筆一般，可以指向物件。
+> 請延續上一課的 Glitch 繼續操作。
 
-1. Add `controller-cursor` component to both hands
-2. In the `controller-event-handler` component, change the color of the boxes
-when they are hovered over with the `mouseenter` event, and restore the color
-with the `mouseleave` event
+1. 為兩隻手都加上 `controller-cursor` 組件
+2. 接著，在 `controller-event-handler` 組件中，讓方塊在 `mouseenter` 事件觸發時改變顏色，而在 `mouseleave` 事件觸發時又變回來。
 
 <img class="stretch" data-src="media/img/trackedcontrols2.gif">
 
-<a href="https://aframe-school-hand-controls.glitch.me/solution2.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+
+<a href="https://aframe-school-hand-controls.glitch.me/solution2.html" target="_blank">檢視最後成果</a>  <!-- .element: class="cta-button" -->
+
 
 ------
 
@@ -648,12 +651,10 @@ with the `mouseleave` event
 <!-- Lessons end here. -->
 
 
-## Congratulations!
+## 恭喜！
 
-You've graduated from the A-Frame School and now have a virtual uncertified
-degree in WebVR.
+您已經從 A-Frame 學院畢業，在此向您授與非正式的 WebVR 學位。
 
 <img class="stretch" data-src="https://cdn.hackaday.io/images/4174761433219325627.png">
 
-Head to [the documentation](https://aframe.io/docs/) for more guides to become
-a master.
+接著，您可以繼續深入[閱讀相關文件](https://aframe.io/docs/)，進一步掌握更多技巧，邁向大師之路。

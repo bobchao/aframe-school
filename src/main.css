@@ -514,3 +514,14 @@ div.slide__boilerplate + video {
   background: none;
   padding: 0;
 }
+
+/*********************************************
+ * zh-TW specific style
+ *********************************************/
+
+body[lang="zh-TW"] .reveal blockquote,
+body[lang="zh-TW"] div.slide__boilerplate,
+body[lang="zh-TW"] .reveal q,
+body[lang="zh-TW"] .reveal em {
+   font-style: normal;
+}
