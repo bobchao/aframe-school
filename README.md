@@ -1,30 +1,11 @@
 # aframe-school
 
-Interactive workshop and lessons for learning [A-Frame](https://aframe.io) and
-WebVR. Based around [Glitch](https://glitch.com).
+中文版編譯版 A-Frame School - 自用教學兩相宜的 A-Frame WebVR 教材。
 
-Can either be self-led or be used as part of a hands-on event (e.g., tutorial
-or workshop). If you are holding an event, you can present the [A-Frame
-Presentation Kit](https://github.com/aframevr/aframe-presentation-kit) as a
-primer beforehand.
+A-Frame 是 Mozilla 出品的一套 WebVR 框架，與 ReactVR 一樣架構在 Three.js 上，但特點是採用了遊戲界比較常見的 [ECS 模式](https://words.bobchao.net/a-frame-%E7%9A%84-entity-component-system-%E6%A6%82%E5%BF%B5-215cd52cb49c)，語法就是你熟悉的 HTML / CSS / JavaScript。對剛踏入 VR 世界的人來說，這一套就是當今最容易上手的框架，你甚至可以不用寫任何 JavaScript 就做出一些「可以動」的東西。
 
-[GO TO SCHOOL](https://aframe.io/aframe-school/)
+我有空會盡量更新到最新版。你可以從 enUS 那個分支知道我落後多少然後幫忙補，也可以回頭參照來源 repo 看最新版的東西。
+
+[開始上課吧！](https://bobchao.github.io/aframe-school-zhTW/index.html)
 
 ![](https://cloud.githubusercontent.com/assets/674727/24431825/1a2c83de-13d3-11e7-9739-dd5004891684.png)
-
-## Grabbing the School
-
-If you're having trouble accessing the School online and need to download the
-School locally (e.g., the Internet connection at your event is poor):
-
-1. [Download the School (.ZIP)](http://github.com/aframevr/aframe-school/zipball/master)
-2. Start a local web server in the same directory as the School (e.g., run
-`python -m SimpleHTTPServer` in a terminal). Alternatively, run the provided
-`mongoose.exe` on Windows or `mongoose.app` on MacOS.
-
-## Working on the School
-
-The School is built using [reveal.js](https://github.com/hakimel/reveal.js/).
-All of the pages of the School are maintained in a single markdown file,
-`content.md`. Use `------` to separate sections and `---` to separate
-subsections.
