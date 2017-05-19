@@ -28,6 +28,7 @@
 ### 旅途中的各種實用資源
 
 1. [閱讀文件及 FAQ](https://aframe.io/docs/)
+2. [上中文討論區找幫手](http://forum.webvr.tw)
 2. [到 Slack 尋求同好協助](https://aframe.io/community/#slack)
 3. [在 Stack Overflow 上發問](http://stackoverflow.com/questions/ask/?tags=aframe)
 4. 如果您正在參與工作坊，有問題就直接舉手吧！
