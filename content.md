@@ -264,7 +264,7 @@ SimpleHTTPServer`
 ## 添加材質 &mdash; 圖片材質
 
 > 在 HTML 的 `src` 屬性裡填上圖片的 URL。[請參考將圖片設定為材質的
-> 相關說明](https://aframe.io/docs/0.5.0/guides/#applying-an-image-texture)。
+> 相關說明](https://aframe.io/docs/0.5.0/guides/building-a-basic-scene.html#applying-an-image-texture)。
 
 
 <a href="https://glitch.com/~aframe-school-textures/" target="_blank">在 Glitch 上重混這一課的程式碼</a>  <!-- .element: class="cta-button glitch" -->
