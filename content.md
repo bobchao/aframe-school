@@ -288,7 +288,7 @@ SimpleHTTPServer`
 
 > 在**任何** A-Frame 場景中，你都可以按下 **`<ctrl> + <alt> + i`** 來開啟視覺化編輯器，
 > 就跟瀏覽器的開發工具一樣！你可以到[首頁的範例集](https://aframe.io/examples/)裡挑幾個來試試，
-> 也請參考 Inspector 相關說明](https://aframe.io/docs/master/guides/using-the-aframe-inspector.html)。
+> 也請參考 [Inspector 相關說明](https://aframe.io/docs/master/guides/using-the-aframe-inspector.html)。
 
 <img class="stretch" data-src="media/img/inspector.gif">
 
